@@ -1,0 +1,58 @@
+{
+  "roadSigns": [
+    {
+      "id": 1,
+      "title": "Stop Sign",
+      "dec": "A red octagonal sign that indicates to stop completely.",
+      "image": "img/stop.png"
+    },
+    {
+      "id": 2,
+      "title": "Yield Sign",
+      "dec": "A triangular sign indicating to give way.",
+      "image": "img/yield.png"
+    },
+    {
+      "id": 3,
+      "title": "Speed Limit",
+      "dec": "A circular sign indicating the maximum speed limit.",
+      "image": "img/speed-limit.png"
+    },
+    {
+      "id": 4,
+      "title": "No Parking",
+      "dec": "A sign indicating that parking is not allowed.",
+      "image": "img/no-parking.png"
+    },
+    {
+      "id": 5,
+      "title": "One Way",
+      "dec": "A sign indicating that traffic must move in one direction only.",
+      "image": "img/no.png"
+    },
+    {
+      "id": 6,
+      "title": "Pedestrian Crossing",
+      "dec": "A sign indicating a designated crossing for pedestrians.",
+      "image": "./img/pedestrian-crossing.png"
+    },
+    {
+      "id": 7,
+      "title": "Railroad Crossing",
+      "dec": "A sign indicating the presence of a railroad crossing.",
+      "image": "img/railway.png"
+    },
+    {
+      "id": 8,
+      "title": "School Zone",
+      "dec": "A sign indicating an area with a school and children present.",
+      "image": "./img/school-zone.png"
+    },
+    {
+      "id": 9,
+      "title": "Slippery When Wet",
+      "dec": "A sign indicating that the road may be slippery when wet.",
+      "image": "./img/slippery-sign.png"
+    }
+  ]
+}
