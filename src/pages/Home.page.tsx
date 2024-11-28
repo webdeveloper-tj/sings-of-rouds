@@ -9,7 +9,7 @@ const Home = () => {
       <div className="flex flex-col sm:flex-row sm:gap-x-3  justify-evenly gap-y-4 ">
         <div className=" md:w-[450px] bg-orange-100 p-6 break-words rounded-md text-slate-700">
           <img
-            src="../../public/chekmarker.png"
+            src="../public/chekmarker.png"
             alt=""
             className="w-16 h-16 mb-4"
           />
@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <div className=" md:w-[450px] bg-orange-100 p-6 break-words rounded-md text-slate-700">
           <img
-            src="../../public/exclamation marker.png"
+            src="../public/exclamation marker.png"
             alt=""
             className="w-16 h-16 mb-4"
           />
