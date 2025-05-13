@@ -1,56 +1,56 @@
+import { useTranslation } from "react-i18next";
+
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col mt-5  gap-y-10 px-1">
       <div className="flex justify-center items-center ">
-        <h1 className="text-center text-orange-700 text-4xl">
-          Welcome to the "{"Road Signs"}"
-        </h1>
+        <h1 className="text-center text-orange-700 text-4xl">{t("welcome")}</h1>
       </div>
-      <div className="flex flex-col sm:flex-row sm:gap-x-3  justify-evenly gap-y-4 ">
-        <div className=" md:w-[450px] bg-orange-100 p-6 break-words rounded-md text-slate-700">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 bg-blue-100">
+        {/* Card 1: Description */}
+        <div className="bg-white shadow-md rounded-xl p-6 flex flex-col items-start text-slate-700 transition hover:shadow-lg hover:bg-blue-50">
           <img
-            src="../public/chekmarker.png"
-            alt=""
-            className="w-16 h-16 mb-4"
+            src="/chekmarker.png"
+            alt="Checkmark icon"
+            className="w-12 h-12 mb-4"
           />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            aliquam, deleniti quia unde rem assumenda laboriosam. Consectetur
-            distinctio velit iste est quis pariatur, cumque aspernatur natus
-            nemo, soluta iusto accusantium!
-          </p>
+          <p className="text-base leading-relaxed">{t("description")}</p>
         </div>
-        <div className=" md:w-[450px] bg-orange-100 p-6 break-words rounded-md text-slate-700">
+        {/* Card 2: Test */}
+        <div className="bg-white shadow-md rounded-xl p-6 flex flex-col items-start text-slate-700 transition hover:shadow-lg hover:bg-blue-50">
           <img
-            src="../public/exclamation marker.png"
-            alt=""
-            className="w-16 h-16 mb-4"
+            src="/chekmarker.png"
+            alt="Checkmark icon"
+            className="w-12 h-12 mb-4"
           />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            aliquam, deleniti quia unde rem assumenda laboriosam. Consectetur
-            distinctio velit iste est quis pariatur, cumque aspernatur natus
-            nemo, soluta iusto accusantium!
-          </p>
+          <p className="text-base leading-relaxed">{t("test")}</p>
+        </div>
+        {/* Card 3: Learn (example extra card) */}
+        <div className="bg-white shadow-md rounded-xl p-6 flex flex-col items-start text-slate-700 transition hover:shadow-lg hover:bg-blue-50">
+          <img
+            src="/chekmarker.png"
+            alt="Checkmark icon"
+            className="w-12 h-12 mb-4"
+          />
+          <p className="text-base leading-relaxed">{t("learn")}</p>
+        </div>{" "}
+        <div className="bg-white shadow-md rounded-xl p-6 flex flex-col items-start text-slate-700 transition hover:shadow-lg hover:bg-blue-50">
+          <img
+            src="/chekmarker.png"
+            alt="Checkmark icon"
+            className="w-12 h-12 mb-4"
+          />
+          <p className="text-base leading-relaxed">{t("understand")}</p>
         </div>
       </div>
+
       <div className="container  flex justify-center items-center relative">
         <img src="../../public/image.png" alt="" className="w-[400px]" />
-        <span className="text-orange-700 text-2xl absolute">
-          You can leanr this !
-        </span>
       </div>
       <div className=" xl:w-[1080px] flex flex-col items-center justify-center mx-auto bg-blue-100 p-6 break-words rounded-md text-slate-700 ">
-        <h1 className="text-3xl mb-4">You cant check youself</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque vitae
-          tempora velit esse! Cum libero impedit, velit vel laboriosam tempore
-          ipsam ex facere, nisi, maxime quam qui debitis accusantium fugit! Quod
-          harum doloribus delectus nulla cumque ipsa atque eveniet
-          necessitatibus suscipit. Corrupti quos enim dignissimos, provident
-          iure quia deleniti ipsum autem ea itaque architecto obcaecati quo,
-          ratione magni voluptatibus culpa?
-        </p>
+        <h1 className="text-3xl mb-4">{t("check")}</h1>
+        <p>{t("test")}</p>
       </div>
     </div>
   );
