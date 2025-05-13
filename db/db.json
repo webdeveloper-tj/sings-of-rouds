@@ -1,58 +1,1761 @@
 {
-  "roadSigns": [
-    {
-      "id": 1,
-      "title": "Stop Sign",
-      "dec": "A red octagonal sign that indicates to stop completely.",
-      "image": "img/stop.png"
-    },
-    {
-      "id": 2,
-      "title": "Yield Sign",
-      "dec": "A triangular sign indicating to give way.",
-      "image": "img/yield.png"
-    },
-    {
-      "id": 3,
-      "title": "Speed Limit",
-      "dec": "A circular sign indicating the maximum speed limit.",
-      "image": "img/speed-limit.png"
-    },
-    {
-      "id": 4,
-      "title": "No Parking",
-      "dec": "A sign indicating that parking is not allowed.",
-      "image": "img/no-parking.png"
-    },
-    {
-      "id": 5,
-      "title": "One Way",
-      "dec": "A sign indicating that traffic must move in one direction only.",
-      "image": "img/no.png"
-    },
-    {
-      "id": 6,
-      "title": "Pedestrian Crossing",
-      "dec": "A sign indicating a designated crossing for pedestrians.",
-      "image": "./img/pedestrian-crossing.png"
-    },
-    {
-      "id": 7,
-      "title": "Railroad Crossing",
-      "dec": "A sign indicating the presence of a railroad crossing.",
-      "image": "img/railway.png"
-    },
-    {
-      "id": 8,
-      "title": "School Zone",
-      "dec": "A sign indicating an area with a school and children present.",
-      "image": "./img/school-zone.png"
-    },
-    {
-      "id": 9,
-      "title": "Slippery When Wet",
-      "dec": "A sign indicating that the road may be slippery when wet.",
-      "image": "./img/slippery-sign.png"
-    }
-  ]
+  "roadSigns": {
+    "Аломатҳои огоҳкунанда": [
+      {
+        "id": "1.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/RU_road_sign_1.1.svg/60px-RU_road_sign_1.1.svg.png",
+        "name": "Гузаргоҳи роҳи оҳан бо ғавчўб",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/RU_road_sign_1.2.svg/60px-RU_road_sign_1.2.svg.png",
+        "name": "Гузаргоҳи роҳи оҳан бе ғавчўб",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/RU_road_sign_1.3.1.svg/60px-RU_road_sign_1.3.1.svg.png",
+        "name": "Роҳи оҳани якхатта",
+        "description": "Гузаргоҳи роҳи оҳани бо ғавчўб таҷҳизонида нашуда ишорат карда мешавад: 1.3.1 – якхатта, 1.3.2 – духатта ва зиёда аз он."
+      },
+      {
+        "id": "1.3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RU_road_sign_1.3.2.svg/60px-RU_road_sign_1.3.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/RU_road_sign_1.4.1.svg/60px-RU_road_sign_1.4.1.svg.png",
+        "name": "Наздикшавӣ ба гузаргоҳи роҳи оҳан",
+        "description": "Огоҳии иловагӣ оид ба наздикшавӣ ба гузаргоҳи роҳи оҳан берун аз маҳаллаҳои аҳолинишин.\nАломатҳои 1.4.1-1.4.3 дар тарафи рост ва аломатҳои 1.4.4 – 1.4.6 дар тарафи чапи роҳ гузошта мешаванд."
+      },
+      {
+        "id": "1.4.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/RU_road_sign_1.4.2.svg/60px-RU_road_sign_1.4.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/RU_road_sign_1.4.3.svg/60px-RU_road_sign_1.4.3.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RU_road_sign_1.4.4.svg/60px-RU_road_sign_1.4.4.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_1.4.5.svg/60px-RU_road_sign_1.4.5.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/RU_road_sign_1.4.6.svg/60px-RU_road_sign_1.4.6.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/RU_road_sign_1.5.svg/60px-RU_road_sign_1.5.svg.png",
+        "name": "Бурида гузаштани хатти трамвай",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BY_road_sign_1.6.svg/60px-BY_road_sign_1.6.svg.png",
+        "name": "Якдигарро бурида гузаштани роҳҳои аҳамияташон баробар",
+        "description": "Наздикшавӣ ба ҷойи бурида гузаштани роҳҳои аҳамияташон баробар, ки талаботи банди 165 ҳамин Қоидаҳо амал мекунад."
+      },
+      {
+        "id": "1.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RU_road_sign_1.7.svg/60px-RU_road_sign_1.7.svg.png",
+        "name": "Ҷойи бурида гузаштани ҳаракати давродавр",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/RU_road_sign_1.8.svg/60px-RU_road_sign_1.8.svg.png",
+        "name": "Танзим бо чароғаки роҳнамо",
+        "description": "Чорроҳа, гузаргоҳи пиёдагард ё қитъаи роҳе, ки дар он ҳаракат бо чароғаки роҳнамо танзим мегардад."
+      },
+      {
+        "id": "1.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/RU_road_sign_1.9.svg/60px-RU_road_sign_1.9.svg.png",
+        "name": "Пули миёнҷудо",
+        "description": "Пули миёнҷудо ё гузаргоҳи паром."
+      },
+      {
+        "id": "1.10",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RU_road_sign_1.10.svg/60px-RU_road_sign_1.10.svg.png",
+        "name": "Баромад ба соҳил",
+        "description": "Баромадан ба маҳалли назди соҳил ё ба соҳил."
+      },
+      {
+        "id": "1.11.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/RU_road_sign_1.11.1.svg/60px-RU_road_sign_1.11.1.svg.png",
+        "name": "Гардиши хатарнок",
+        "description": "Гардиши роҳ бо радиуси хурд ё дидашавандагии маҳдуд: 1.11.1 – ба дасти рост, 1.11.2 – ба дасти чап."
+      },
+      {
+        "id": "1.11.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/RU_road_sign_1.11.2.svg/60px-RU_road_sign_1.11.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.12.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/RU_road_sign_1.12.1.svg/60px-RU_road_sign_1.12.1.svg.png",
+        "name": "Гардишҳои хатарнок",
+        "description": "Қитъаи роҳ бо гардишҳои хатарнок: 1.12.1 – бо гардиши якум ба дасти рост, 1.12.2 – бо гардиши якум ба дасти чап."
+      },
+      {
+        "id": "1.12.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/RU_road_sign_1.12.2.svg/60px-RU_road_sign_1.12.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.13",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RU_road_sign_1.13.svg/60px-RU_road_sign_1.13.svg.png",
+        "name": "Нишебии тез",
+        "description": "Нишебӣ ё кўтал, ки дар онҳо талаботи махсуси Қоидаҳои ҳаракат дар роҳ оид ба тартиби ҳаракат дар нишебиҳои тез ва кўталҳои фароз амал мекунад.\nАломатҳои 1.13, 1.14 метавонанд бе лавҳачаи 7.1.1 бевосита пеш аз оғози нишебӣ ё кўтал гузошта шаванд, агар онҳо паси ҳам такрор шаванд."
+      },
+      {
+        "id": "1.14",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RU_road_sign_1.14.svg/60px-RU_road_sign_1.14.svg.png",
+        "name": "Кўтали фароз",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.15",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/BY_road_sign_1.15.svg/60px-BY_road_sign_1.15.svg.png",
+        "name": "Роҳи лағжонак",
+        "description": "Қитъаи роҳе, ки қисми мошингарди он лағжонакии баланд дорад."
+      },
+      {
+        "id": "1.16",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/BY_road_sign_1.16.2.svg/60px-BY_road_sign_1.16.2.svg.png",
+        "name": "Роҳи ноҳамвор",
+        "description": "Қитъаи роҳе, ки дар қисми мошингарди он ноҳамвориҳо (ноҳамвории мавҷмонанд, барҷастагиҳо, ҷойҳои чўкида, пайвастагиҳои моилнабуда бо пулҳо ва монанди инҳо) доранд."
+      },
+      {
+        "id": "1.17",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/BY_road_sign_1.17.svg/60px-BY_road_sign_1.17.svg.png",
+        "name": "Регпарто",
+        "description": "Қитъаи роҳе, ки дар он имкони аз зери чархи воситаҳои нақлиёт паридани сангреза, шағал ва монанди инҳо мавҷуд аст."
+      },
+      {
+        "id": "1.18.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_1.20.1.svg/60px-RU_road_sign_1.20.1.svg.png",
+        "name": "Тангшавии роҳ",
+        "description": "1.18.1 – тангшавӣ аз ҳарду тараф, 1.18.2 – тангшавӣ аз тарафи рост, 1.18.3 – тангшавӣ аз тарафи чап."
+      },
+      {
+        "id": "1.18.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RU_road_sign_1.20.2.svg/60px-RU_road_sign_1.20.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.18.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/RU_road_sign_1.20.3.svg/60px-RU_road_sign_1.20.3.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.19",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/RU_road_sign_1.21.svg/60px-RU_road_sign_1.21.svg.png",
+        "name": "Ҳаракати дутарафа",
+        "description": "Аввали қитъаи роҳ (қисми мошингард), бо ҳаракати муқобил."
+      },
+      {
+        "id": "1.20",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/RU_road_sign_1.22.svg/60px-RU_road_sign_1.22.svg.png",
+        "name": "Гузаргоҳи пиёдагард",
+        "description": "Гузаргоҳи пиёдагарде, ки бо аломатҳои 5.16.1, 5.16.2 ва (ё) нишонаи 1.14.1 – 1.14.2 ишорат шудааст."
+      },
+      {
+        "id": "1.21",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/RU_road_sign_1.23.svg/60px-RU_road_sign_1.23.svg.png",
+        "name": "Кўдакон",
+        "description": "Қитъаи роҳи наздик ба муассисаи кўдакона (мактаб, лагери солимгардонӣ ва монанди инҳо), ки дар қисми мошингарди он пайдо шудани кўдакон имкон дорад."
+      },
+      {
+        "id": "1.22",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RU_road_sign_1.24.svg/60px-RU_road_sign_1.24.svg.png",
+        "name": "Буриш бо пайроҳаи велосипедгард",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.23",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RU_road_sign_1.25.svg/60px-RU_road_sign_1.25.svg.png",
+        "name": "Корҳои роҳсозӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.24",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/RU_road_sign_1.26.svg/60px-RU_road_sign_1.26.svg.png",
+        "name": "Рондани чорво",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.25",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RU_road_sign_1.27.svg/60px-RU_road_sign_1.27.svg.png",
+        "name": "Ҳайвоноти ваҳшӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.26",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/RU_road_sign_1.28.svg/60px-RU_road_sign_1.28.svg.png",
+        "name": "Афтиши сангҳо",
+        "description": "Қитъаи роҳе, ки дар он фурўравӣ, ярч, афтиши сангҳо имкон дорад."
+      },
+      {
+        "id": "1.27",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/RU_road_sign_1.29.svg/60px-RU_road_sign_1.29.svg.png",
+        "name": "Шамоли паҳлуӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.28",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/RU_road_sign_1.30.svg/60px-RU_road_sign_1.30.svg.png",
+        "name": "Тайёраҳои пастпарвоз",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.29",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BY_road_sign_1.29.svg/60px-BY_road_sign_1.29.svg.png",
+        "name": "Нақб",
+        "description": "Нақбе, ки дар он равшании сунъӣ мавҷуд нест ё нақбе, ки дидашавандагӣ дар даромадгоҳи он маҳдуд аст."
+      },
+      {
+        "id": "1.30",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RU_road_sign_1.33.svg/60px-RU_road_sign_1.33.svg.png",
+        "name": "Хатарҳои дигар",
+        "description": "Қитъаи роҳе, ки дар он хатарҳои бо дигар аломатҳои огоҳкунанда пешбининашуда мавҷуданд."
+      },
+      {
+        "id": "1.31.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/RU_road_sign_1.34.1_A.svg/120px-RU_road_sign_1.34.1_A.svg.png",
+        "name": "Самти гардиш",
+        "description": "Самти ҳаракат дар каҷии радиусаш хурди роҳ бо дидашавандагии маҳдуд. Самти гузаштан аз паҳлуи қитъаи роҳи таъмиршаванда."
+      },
+      {
+        "id": "1.31.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/RU_road_sign_1.34.2_A.svg/120px-RU_road_sign_1.34.2_A.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.31.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/RU_road_sign_1.34.3_A.svg/120px-RU_road_sign_1.34.3_A.svg.png",
+        "name": "Самти ҳаракат дар чорроҳаи \"Т\" – шакл ё ҷойи ҷудошавии роҳҳо. Самти гузаштан аз паҳлуҳои қитъаи роҳи таъмиршаванда.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.32",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/BY_road_sign_1.34.svg/60px-BY_road_sign_1.34.svg.png",
+        "name": "Роҳбандон",
+        "description": "Минтақаи роҳ, ки дар он роҳбандон ба амал омадааст."
+      },
+      {
+        "id": "1.33",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/BY_road_sign_1.32.svg/60px-BY_road_sign_1.32.svg.png",
+        "name": "Канори роҳи хатарнок",
+        "description": "Минтақаи роҳ, ки дар он ба канори роҳ фуромадан хатарнок аст."
+      },
+      {
+        "id": "1.34",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/RU_road_sign_1.17.svg/60px-RU_road_sign_1.17.svg.png",
+        "name": "Ноҳамвории сунъӣ",
+        "description": "Минтақаи роҳ бо ноҳамвории (ноҳамвориҳои) сунъӣ барои маҷбуран паст намудани суръат."
+      },
+      {
+        "id": "1.35",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BY_road_sign_1.29.svg/60px-BY_road_sign_1.29.svg.png",
+        "name": "Минтақаи хатарноки садамавӣ",
+        "description": "Аз наздикшавӣ ба қитъаи роҳ, ки дар он зуд – зуд ҳодисаҳои роҳу нақлиёт ба амал меоянд, огоҳ месозад. Аломат мумкин аст бо яке аз ин лаҳвачаҳо 7.27.1 – 7.27.4, ки намуди хатарро нишон медиҳанд, гузошта шавад."
+      }
+    ],
+    "Аломатҳои афзалият": [
+      {
+        "id": "2.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/RU_road_sign_2.1.svg/60px-RU_road_sign_2.1.svg.png",
+        "name": "Роҳи асосӣ",
+        "description": "Роҳе, ки ҳангоми ҳаракат бо он ҳуқуқи афзалиятноки гузаштан аз чорроҳаҳои танзимнашаванда дода шудааст."
+      },
+      {
+        "id": "2.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RU_road_sign_2.2.svg/60px-RU_road_sign_2.2.svg.png",
+        "name": "Охири роҳи асосӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/RU_road_sign_2.3.1.svg/60px-RU_road_sign_2.3.1.svg.png",
+        "name": "Буриш бо роҳи дуюмдараҷа",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/RU_road_sign_2.3.2.svg/60px-RU_road_sign_2.3.2.svg.png",
+        "name": "Пайвастшавии роҳи дуюмдараҷа",
+        "description": "Пайвастшавӣ аз рост – 2.3.2, 2.3.4, 2.3.6, пайвастшавӣ аз чап – 2.3.3, 2.3.5, 2.3.7."
+      },
+      {
+        "id": "2.3.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/RU_road_sign_2.3.3.svg/60px-RU_road_sign_2.3.3.svg.png",
+
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/RU_road_sign_2.3.4.svg/60px-RU_road_sign_2.3.4.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RU_road_sign_2.3.5.svg/60px-RU_road_sign_2.3.5.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/RU_road_sign_2.3.6.svg/60px-RU_road_sign_2.3.6.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/RU_road_sign_2.3.7.svg/60px-RU_road_sign_2.3.7.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/RU_road_sign_2.4.svg/60px-RU_road_sign_2.4.svg.png",
+        "name": "Роҳ диҳед",
+        "description": "Ронанда бояд ба воситаҳои нақлиёте, ки бо роҳи буридашаванда ва ҳангоми мавҷуд будани лавҳачаи 7.13 – бо роҳи асосӣ, ҳаракат мекунанд, роҳ диҳад."
+      },
+      {
+        "id": "2.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/RU_road_sign_2.5.svg/60px-RU_road_sign_2.5.svg.png",
+        "name": "Ҳаракат бидуни бозистӣ манъ аст",
+        "description": "Ҳаракат бидуни бозистӣ пеш аз хатти бозистӣ ва агар он мавҷуд набошад, – пеш аз канори қисми мошингарди буридашаванда, манъ аст. Ронанда бояд ба воситаҳои нақлиёте, ки бо роҳи буридашаванда ва ҳангоми мавҷуд будани лавҳачаи 7.13 – бо роҳи асосӣ ҳаракат мекунанд, роҳ диҳад.\nАломати 2.5-ро пеш аз гузаргоҳи роҳи оҳан ё посгоҳи карантин гузоштан мумкин аст. Дар чунин ҳолатҳо ронанда бояд пеш аз хатти бозистӣ ва агар он мавҷуд набошад – пеш аз аломат бозистад."
+      },
+      {
+        "id": "2.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/RU_road_sign_2.6.svg/60px-RU_road_sign_2.6.svg.png",
+        "name": "Афзалияти ҳаракати муқобил",
+        "description": "Даромадан ба қитъаи танги роҳ, агар ин амал ҳаракати муқобилро мушкил гардонад, манъ аст. Ронанда бояд ба воситаҳои нақлиёти муқобил, ки дар қитъаи танги роҳ ё дар даромадгоҳи муқобили он қарор доранд, роҳ диҳад."
+      },
+      {
+        "id": "2.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/RU_road_sign_2.7.svg/60px-RU_road_sign_2.7.svg.png",
+        "name": "Афзалият нисбат ба ҳаракати муқобил",
+        "description": "Қитъаи танги роҳ, ки ҳангоми ҳаракат бо он ронанда нисбат ба воситаҳои нақлиёти муқобил афзалият дорад."
+      }
+    ],
+    "Аломатҳои манъкунанда": [
+      {
+        "id": "3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/RU_road_sign_3.1.svg/60px-RU_road_sign_3.1.svg.png",
+        "name": "Даромадан манъ аст",
+        "description": "Даромадани ҳама воситаҳои нақлиёт ба самти додашуда манъ аст."
+      },
+      {
+        "id": "3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/RU_road_sign_3.2.svg/60px-RU_road_sign_3.2.svg.png",
+        "name": "Ҳаракат манъ аст",
+        "description": "Ҳаракати тамоми воситаҳои нақлиёт манъ аст."
+      },
+      {
+        "id": "3.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/RU_road_sign_3.3.svg/60px-RU_road_sign_3.3.svg.png",
+        "name": "Ҳаракати воситаҳои нақлиёти механикӣ манъ аст",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/RU_road_sign_3.4.svg/60px-RU_road_sign_3.4.svg.png",
+        "name": "Ҳаракати автомобилҳои боркаш манъ аст",
+        "description": "Ҳаракати автомобилҳои боркаш ва ҳайатҳои воситаҳои нақлиёт бо вазни ниҳоии ҷоизи зиёда аз 3,5 т (агар дар аломат вазн нишон дода нашуда бошад) ё бо вазни ниҳоии ҷоизи зиёдтар аз вазне, ки дар аломат нишон дода шудааст, ҳамчунин тракторҳо ва мошинҳои худгард манъ аст.\nАломати 3.4 ҳаракати автомобилҳои боркашеро, ки дар бари кузовашон хатти сафеди моил доранд ё барои интиқоли одамон пешбинӣ шудаанд, манъ намекунад."
+      },
+      {
+        "id": "3.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/RU_road_sign_3.5.svg/60px-RU_road_sign_3.5.svg.png",
+        "name": "Ҳаракати мототсиклҳо манъ аст",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RU_road_sign_3.6.svg/60px-RU_road_sign_3.6.svg.png",
+        "name": "Ҳаракати тракторҳо манъ аст",
+        "description": "Ҳаракати тракторҳо ва мошинҳои худгард манъ карда мешавад."
+      },
+      {
+        "id": "3.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/RU_road_sign_3.7.svg/60px-RU_road_sign_3.7.svg.png",
+        "name": "Ҳаракат бо ядак манъ аст",
+        "description": "Ҳаракати автомобилҳои боркаш ва тракторҳо бо ҳар кадом навъи ядакҳо, ҳамчунин кашида бурдани воситаҳои нақлиёти механикӣ манъ карда мешавад."
+      },
+      {
+        "id": "3.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/RU_road_sign_3.8.svg/60px-RU_road_sign_3.8.svg.png",
+        "name": "Ҳаракати аспу аробаҳо манъ аст",
+        "description": "Ҳаракати аспу аробаҳо (чанаҳо), ҳайвоноти саворӣ ва боркашӣ, ҳамчунин рондани чорво манъ карда мешавад."
+      },
+      {
+        "id": "3.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/RU_road_sign_3.9.svg/60px-RU_road_sign_3.9.svg.png",
+        "name": "Ҳаракат бо велосипедҳо манъ аст",
+        "description": "Ҳаракати велосипедҳо ва мопедҳо манъ карда мешавад."
+      },
+      {
+        "id": "3.10",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/RU_road_sign_3.10.svg/60px-RU_road_sign_3.10.svg.png",
+        "name": "Ҳаракати пиёдагардон манъ аст",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.11",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/RU_road_sign_3.11.svg/60px-RU_road_sign_3.11.svg.png",
+        "name": "Маҳдудияти вазн",
+        "description": "Ҳаракати воситаҳои нақлиёт, аз ҷумла ҳайати воситаҳои нақлиёте, ки вазни умумии воқеии онҳо аз нишондоди аломат зиёд аст, манъ карда мешавад."
+      },
+      {
+        "id": "3.12",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/SU_road_sign_3.12.svg/60px-SU_road_sign_3.12.svg.png",
+        "name": "Маҳдудияти вазни ба меҳвари воситаи нақлиёт меомада",
+        "description": "Ҳаракати воситаҳои нақлиёте, ки дар онҳо вазни воқеии ба ягон меҳвари меомада аз нишондоди аломат зиёд аст, манъ карда мешавад."
+      },
+      {
+        "id": "3.13",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/SU_road_sign_3.13.svg/60px-SU_road_sign_3.13.svg.png",
+        "name": "Маҳдудияти баландӣ",
+        "description": "Ҳаракати воситаҳои нақлиёте, ки баландии андозавии онҳо (бо бор ё бе бор) аз нишондоди аломат зиёд аст, манъ карда мешавад."
+      },
+      {
+        "id": "3.14",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RU_road_sign_3.14.svg/60px-RU_road_sign_3.14.svg.png",
+        "name": "Маҳдудияти бар",
+        "description": "Ҳаракати воситаҳои нақлиёте, ки бари андозавии онҳо (бо бор ё бе бор) аз нишондоди аломат зиёд аст, манъ карда мешавад."
+      },
+      {
+        "id": "3.15",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/RU_road_sign_3.15.svg/60px-RU_road_sign_3.15.svg.png",
+        "name": "Маҳдудияти дарозӣ",
+        "description": "Ҳаракати воситаҳои нақлиёте (ҳайатҳои воситаҳои нақлиёт), ки дарозии андозавии онҳо (бо бор ё бе бор) аз нишондоди аломат зиёд аст, манъ карда мешавад."
+      },
+      {
+        "id": "3.16",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RU_road_sign_3.16.svg/60px-RU_road_sign_3.16.svg.png",
+        "name": "Маҳдудияти фосилаи ҳадди ақал",
+        "description": "Ҳаракати воситаҳои нақлиёт бо фосилаи байни онҳо, ки аз нишондоди аломат кам аст, манъ карда мешавад."
+      },
+      {
+        "id": "3.17.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tajikistan_road_sign_3.17.1.svg/60px-Tajikistan_road_sign_3.17.1.svg.png",
+        "name": "Гумрук",
+        "description": "Дар назди гумрук (нуқтаи назорат) бе бозистӣ гузаштан манъ аст."
+      },
+      {
+        "id": "3.17.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Tajikistan_road_sign_3.17.2.svg/60px-Tajikistan_road_sign_3.17.2.svg.png",
+        "name": "Хатар",
+        "description": "Бо сабаби ҳодисаи роҳу нақлиёт, садама, сўхтор ё хатари дигар ҳаракати ҳамаи воситаҳои нақлиёт бе истисно манъ аст."
+      },
+      {
+        "id": "3.17.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tajikistan_road_sign_3.17.3.svg/60px-Tajikistan_road_sign_3.17.3.svg.png",
+        "name": "Назорат",
+        "description": "Гузаштан аз пункти назоратӣ бе бозистӣ манъ аст."
+      },
+      {
+        "id": "3.18.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/RU_road_sign_3.18.1.svg/60px-RU_road_sign_3.18.1.svg.png",
+        "name": "Гардиш ба рост манъ аст",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.18.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/RU_road_sign_3.18.2.svg/60px-RU_road_sign_3.18.2.svg.png",
+        "name": "Гардиш ба чап манъ аст",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.19",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/RU_road_sign_3.19.svg/60px-RU_road_sign_3.19.svg.png",
+        "name": "Тобхўрӣ манъ аст",
+        "description": "Тоб хўрдан манъ аст, дар ин ҳолат гардиш ба тарафи чап иҷозат дода мешавад."
+      },
+      {
+        "id": "3.20",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RU_road_sign_3.20.svg/60px-RU_road_sign_3.20.svg.png",
+        "name": "Сабқат манъ аст",
+        "description": "Сабқати тамоми воситаҳои нақлиёт, ғайр аз воситаҳои нақлиёти сустҳаракат, аспу аробаҳо, мопедҳо ва мототсиклҳои дучархаи бе фойтун, манъ аст."
+      },
+      {
+        "id": "3.21",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/RU_road_sign_3.21.svg/60px-RU_road_sign_3.21.svg.png",
+        "name": "Охири минтақаи манъи сабқат",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.22",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RU_road_sign_3.22.svg/60px-RU_road_sign_3.22.svg.png",
+        "name": "Cабқат барои автомобилҳои боркаш манъ аст",
+        "description": "Сабқат барои автомобилҳои боркаше, ки вазни ниҳоии ҷоизашон зиёда аз 3,5 т аст манъ аст."
+      },
+      {
+        "id": "3.23",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/RU_road_sign_3.23.svg/60px-RU_road_sign_3.23.svg.png",
+        "name": "Охири минтақаи манъи сабқат барои автомобилҳои боркаш",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.24",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/RU_road_sign_3.24-50.svg/60px-RU_road_sign_3.24-50.svg.png",
+        "name": "Маҳдудияти суръати ниҳоӣ",
+        "description": "Ҳаракат бо суръате, ки аз суръати (км/соат) дар аломат нишондодашуда зиёд мебошад, манъ аст."
+      },
+      {
+        "id": "3.25",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/RU_road_sign_3.25-50.svg/60px-RU_road_sign_3.25-50.svg.png",
+        "name": "Охири минтақаи маҳдудияти суръати ниҳоӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.26",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/RU_road_sign_3.26.svg/60px-RU_road_sign_3.26.svg.png",
+        "name": "Додани сигнали овозӣ манъ аст",
+        "description": "Истифодабарии сигналҳои овозӣ, ғайр аз ҳолатҳое, ки сигнал барои пешгирии ҳодисаи роҳу нақлиёт дода мешавад, манъ аст."
+      },
+      {
+        "id": "3.27",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/RU_road_sign_3.27.svg/60px-RU_road_sign_3.27.svg.png",
+        "name": "Бозистӣ манъ аст",
+        "description": "Бозистӣ ва таваққуфи воситаҳои нақлиёт манъ аст."
+      },
+      {
+        "id": "3.28",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/RU_road_sign_3.28.svg/60px-RU_road_sign_3.28.svg.png",
+        "name": "Таваққуф манъ аст",
+        "description": "Таваққуфи воситаҳои нақлиёт манъ аст."
+      },
+      {
+        "id": "3.29",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RU_road_sign_3.29.svg/60px-RU_road_sign_3.29.svg.png",
+        "name": "Таваққуф дар рўзҳои тоқи моҳ манъ аст",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.30",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/RU_road_sign_3.30.svg/60px-RU_road_sign_3.30.svg.png",
+        "name": "Таваққуф дар рўзҳои ҷуфти моҳ манъ аст",
+        "description": "Ҳангоми дар як вақт дар тарафҳои муқобили қисми мошингард истифодабарии аломатҳои 3.29 ва 3.30 таваққуф дар ҳарду тарафи қисми мошингард иҷозат дода мешавад аз соати 19 то 21 (вақти ҷойивазкунонӣ)."
+      },
+      {
+        "id": "3.31",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RU_road_sign_3.31.svg/60px-RU_road_sign_3.31.svg.png",
+        "name": "Охири минтақаи ҳамаи маҳдудиятҳо",
+        "description": "Ифодаи охири минтақаи амали яквақтаи якчанд аломатҳо аз қабили: 3.16, 3.20, 3.22, 3.24, 3.26 — 3.30."
+      },
+      {
+        "id": "3.32",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RU_road_sign_3.32.svg/60px-RU_road_sign_3.32.svg.png",
+        "name": "Ҳаракати воситаҳои нақлиёт бо борҳои хатарнок манъ аст",
+        "description": "Ҳаракати воситаҳои нақлиёте, ки бо аломатҳои фарқкунандаи \"Бори хатарнок\" таҷҳизонида шудаанд, манъ аст."
+      },
+      {
+        "id": "3.33",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/RU_road_sign_3.33.svg/60px-RU_road_sign_3.33.svg.png",
+        "name": "Ҳаракати воситаҳои нақлиёт бо борҳои тарканда ва зудоташгиранда манъ аст",
+        "description": "Ҳаракати воситаҳои нақлиёте, ки ба интиқоли моддаҳо ва маҳсулотҳои тарканда, инчунин дигар борҳои хатарноке, ки бояд ҳамчун зудоташгиранда тамғагузорӣ шаванд, ғайр аз ҳолатҳои бо тартиби муқаррарнамудаи қоидаҳои махсуси интиқол ба миқдори маҳдуд интиқол намудани моддаҳо ва маҳсулотҳои хатарноки мазкур, манъ аст."
+      },
+      {
+        "id": "3.34",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/RU_road_sign_3.34.svg/60px-RU_road_sign_3.34.svg.png",
+        "name": "Ҳаракати автобусҳо манъ аст",
+        "description": "Ҳаракати автобусҳо ва микроавтобусҳо, ки ба интиқоли мусофирон машғуланд, манъ аст."
+      },
+      {
+        "id": "3.35",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/TJ_road_sign_3.35.svg/60px-TJ_road_sign_3.35.svg.png",
+        "name": "Охири минтақаи манъи ҳаракати автобусҳо",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      }
+    ],
+    "Аломатҳои фармондеҳ": [
+      {
+        "id": "4.1.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/RU_road_sign_4.1.1.svg/60px-RU_road_sign_4.1.1.svg.png",
+        "name": "Ҳаракат ба пеш",
+        "description": "Аломатҳои 4.1.1-4.1.6 ҳаракатро танҳо ба самти нишондодаи ақрабакҳо, иҷозат медиҳанд. Аломатҳое, ки гардишро ба тарафи чап иҷозат медиҳанд, тоб хўрданро низ аз канори чапи роҳ иҷозат медиҳанд.\nАломатҳои 4.1.1-4.1.6 метавонанд бо шакли маҷмўи ақрабакҳое, ки ба самтҳои иҷозатдодашудаи ҳаракат дар буришгоҳи муайян мутобиқанд, гузошта шаванд."
+      },
+      {
+        "id": "4.1.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/RU_road_sign_4.1.2.svg/60px-RU_road_sign_4.1.2.svg.png",
+        "name": "Ҳаракат ба тарафи рост",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "4.1.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RU_road_sign_4.1.3.svg/60px-RU_road_sign_4.1.3.svg.png",
+        "name": "Ҳаракат ба тарафи чап",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "4.1.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/RU_road_sign_4.1.4.svg/60px-RU_road_sign_4.1.4.svg.png",
+        "name": "Ҳаракат ба пеш ё ба тарафи рост",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "4.1.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RU_road_sign_4.1.5.svg/60px-RU_road_sign_4.1.5.svg.png",
+        "name": "Ҳаракат ба пеш ё ба тарафи чап",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "4.1.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/RU_road_sign_4.1.6.svg/60px-RU_road_sign_4.1.6.svg.png",
+        "name": "Ҳаракат ба тарафи рост ё чап",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "4.2.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RU_road_sign_4.2.1.svg/60px-RU_road_sign_4.2.1.svg.png",
+        "name": "Гузаштани монеа аз тарафи рост",
+        "description": "Гузаштан аз монеа танҳо ба тарафи дар ақрабак нишондодашуда иҷозат дода мешавад."
+      },
+      {
+        "id": "4.2.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/RU_road_sign_4.2.2.svg/60px-RU_road_sign_4.2.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "4.2.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RU_road_sign_4.2.3.svg/60px-RU_road_sign_4.2.3.svg.png",
+        "name": "Гузаштани монеа аз тарафи рост ё чап",
+        "description": "Гузаштан аз ҳар ду паҳлуи монеа иҷозат дода мешавад."
+      },
+      {
+        "id": "4.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/RU_road_sign_4.3.svg/60px-RU_road_sign_4.3.svg.png",
+        "name": "Ҳаракати давродавр",
+        "description": "Ҳаракат ба самте, ки ақрабакҳо нишон медиҳанд, иҷозат дода мешавад."
+      },
+      {
+        "id": "4.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/SU_road_sign_4.4.svg/60px-SU_road_sign_4.4.svg.png",
+        "name": "Ҳаракати автомобилҳои сабукрав",
+        "description": "Ҳаракат танҳо барои автомобилҳои сабукрав, автобусҳо, воситаҳои нақлиёти маршрутӣ, автомобилҳои боркаше, ки вазни ниҳоии ҷоизи онҳо аз 3,5 тонна зиёд нест ва мототсиклҳо иҷозат дода мешавад."
+      },
+      {
+        "id": "4.5.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/RU_road_sign_4.4.1.svg/60px-RU_road_sign_4.4.1.svg.png",
+        "name": "Пайроҳаи велосипедгард",
+        "description": "Танҳо ҳаракат дар велосипедҳо иҷозат дода мешавад ва дар ҳолати мавҷуд набудани пиёдароҳа ё пайроҳаи пиёдагард – ҳаракати пиёдагардон, дар ин ҳолат пиёдагардон набояд барои ҳаракати велосипедронон монеа эҷод кунанд. Дар аломат иловатан мумкин аст суроби пиёдагард кашида шавад."
+      },
+      {
+        "id": "4.5.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RU_road_sign_4.4.2.svg/60px-RU_road_sign_4.4.2.svg.png",
+        "name": "Охири пайроҳаи велосипедгард",
+        "description": "Охири аломати 4.5.1. Дар аломат иловатан мумкин аст суроби пиёдагард кашида шавад."
+      },
+      {
+        "id": "4.6.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/RU_road_sign_4.5.1.svg/60px-RU_road_sign_4.5.1.svg.png",
+        "name": "Пайроҳаи пиёдагард",
+        "description": "Танҳо ҳаракати пиёдагардон иҷозат дода мешавад, дар ҳолати набудани пайроҳаи велосипедгард – ва дар велосипед, дар ин ҳолат велосипедронон набояд ба ҳаракати пиёдагардон монеа эҷод кунанд. Дар аломат мумкин аст иловатан суроби велосипед кашида шавад."
+      },
+      {
+        "id": "4.6.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/BY_road_sign_4.6.2.svg/60px-BY_road_sign_4.6.2.svg.png",
+        "name": "Охири пайроҳаи пиёдагард",
+        "description": "Охири аломати 4.6.1. Дар аломат иловатан мумкин аст суроби велосипед кашида шавад."
+      },
+      {
+        "id": "4.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/RU_road_sign_4.6-50.svg/60px-RU_road_sign_4.6-50.svg.png",
+        "name": "Маҳдудияти суръати ҳадди ақал",
+        "description": "Ҳаракат танҳо бо суръати нишондодашуда ё аз он зиёдтар (км/соат) вале на зиёдтар аз суръати дар бандҳои 106 ва 107 Қоидаҳо нишондодашуда иҷозат дода мешавад."
+      },
+      {
+        "id": "4.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/RU_road_sign_4.7-50.svg/60px-RU_road_sign_4.7-50.svg.png",
+        "name": "Охири минтақаи маҳдудияти суръати ҳадди ақал",
+        "description": "Охири минтақаи амали аломати 4.7."
+      },
+      {
+        "id": "4.9.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/RU_road_sign_4.8.1.svg/60px-RU_road_sign_4.8.1.svg.png",
+        "name": "Самти ҳаракати воситаҳои нақлиёт бо борҳои хатарнок",
+        "description": "Ҳаракати воситаҳои нақлиёт, ки бо аломати фарқкунандаи \"Бори хатарнок\" ҷиҳозонида шудаанд, танҳо ба чап иҷозат дода мешавад."
+      },
+      {
+        "id": "4.9.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/RU_road_sign_4.8.2.svg/60px-RU_road_sign_4.8.2.svg.png",
+        "name": "Ҳаракати воситаҳои нақлиёт, ки бо аломати фарқкунандаи \"Бори хатарнок\" ҷиҳозонида шудаанд, танҳо мустақиман, иҷозат дода мешавад."
+        ,"description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "4.9.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/RU_road_sign_4.8.3.svg/60px-RU_road_sign_4.8.3.svg.png",
+        "name": "Ҳаракати воситаҳои нақлиёт, ки бо аломати фарқкунандаи \"Бори хатарнок\" ҷиҳозонида шудаанд, танҳо ба рост, иҷозат дода мешавад.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      }
+    ],
+    "Аломатҳои иттилоотӣ": [
+      {
+        "id": "5.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/RU_road_sign_5.1.svg/60px-RU_road_sign_5.1.svg.png",
+        "name": "Шоҳроҳ",
+        "description": "Аломатҳои 5.1 ва 5.2 оид ба аввал ва охири роҳе, ки дар он талаботи махсуси муқарраркардаи Қоидаҳо оид ба тартиби ҳаракат дар шоҳроҳҳо амал мекунанд."
+      },
+      {
+        "id": "5.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/RU_road_sign_5.2.svg/60px-RU_road_sign_5.2.svg.png",
+        "name": "Охири шоҳроҳ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/RU_road_sign_5.3.svg/60px-RU_road_sign_5.3.svg.png",
+        "name": "Роҳ барои автомобилҳо",
+        "description": "Роҳе, ки танҳо барои ҳаракати автомобилҳо, автобусҳо ва мототсиклҳо пешбинӣ шудааст."
+      },
+      {
+        "id": "5.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/RU_road_sign_5.4.svg/60px-RU_road_sign_5.4.svg.png",
+        "name": "Охири роҳ барои автомобилҳо",
+        "description": "Амали аломати роҳи 5.3-ро бекор мекунад."
+      },
+      {
+        "id": "5.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/RU_road_sign_5.5.svg/60px-RU_road_sign_5.5.svg.png",
+        "name": "Роҳи ҳаракати яктарафа",
+        "description": "Роҳ ё қисми мошингарде, ки дар он ҳаракати воситаҳои нақлиёт бо тамоми паҳноиаш ба як самт анҷом дода мешавад."
+      },
+      {
+        "id": "5.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/RU_road_sign_5.6.svg/60px-RU_road_sign_5.6.svg.png",
+        "name": "Охири роҳи ҳаракати яктарафа",
+        "description": "Амали аломати роҳи 5.3-ро бекор мекунад."
+      },
+      {
+        "id": "5.7.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/RU_road_sign_5.7.1.svg/120px-RU_road_sign_5.7.1.svg.png",
+        "name": "Баромад ба роҳи ҳаракати яктарафа",
+        "description": "Баромад ба роҳ ё қисми мошингарде, ки дар он ҳаракати воситаҳои нақлиёт танҳо ба самти дар аломат нишондодашуда иҷозат дода мешавад."
+      },
+      {
+        "id": "5.7.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RU_road_sign_5.7.2.svg/120px-RU_road_sign_5.7.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.8.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/RU_road_sign_5.15.1.svg/120px-RU_road_sign_5.15.1.svg.png",
+        "name": "Самти ҳаракат бо хатҳо",
+        "description": "Шумораи хатҳо ва самтҳои иҷозатдодашудаи ҳаракат дар ҳар кадоми онҳо."
+      },
+      {
+        "id": "5.8.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RU_road_sign_5.15.2_A.svg/60px-RU_road_sign_5.15.2_A.svg.png",
+        "name": "Самти ҳаракат бо хат",
+        "description": "Самтҳои (самти) иҷозатдодашудаи ҳаракат бо хат.\nДар аломатҳои 5.8.1 ва 5.8.2 мумкин аст маълумот дар бораи маҳдудиятҳои ҳаракат дар роҳ дар чорроҳа (кашидани тасвирҳои аломатҳои манъкунанда ё дастурдиҳанда) инъикос карда шавад. Аломатҳои 5.8.1 ва 5.8.2, ки гардишро ба тарафи чап аз хатти охирини чап иҷозат медиҳанд, тоб хўрданро низ аз ин хат иҷозат медиҳанд. Шакли тирчаҳо мумкин аст вобаста ба шакли чорроҳаи мушаххас тағйир дода шаванд. Амали аломатҳои 5.8.1 ва 5.8.2, ки пеш аз чорроҳа гузошта шудаанд, ба тамоми чорроҳа дахл дорад, агар дигар аломатҳои 5.8.1, 5.8.2 ё 4.1.1 – 4.1.6, ки дар чорроҳа гузошта шудаанд, дастурҳои дигар надиҳанд. Амали аломатҳои 5.8.1 ва 5.8.2 ба воситаҳои нақлиёти маршрутӣ дахл надоранд."
+      },
+      {
+        "id": "5.8.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RU_road_sign_5.15.3_A.svg/60px-RU_road_sign_5.15.3_A.svg.png",
+        "name": "Аввали хат",
+        "description": "Аввали хатти иловагӣ дар кўтал ё хатти боздорӣ. "
+      },
+      {
+        "id": "5.8.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/RU_road_sign_5.15.4_A.svg/60px-RU_road_sign_5.15.4_A.svg.png",
+        "name": "Аввали қитъаи хатти миёнаи роҳҳои сехатта, ки барои ҳаракат ба самти додашуда, пешбинӣ шудааст ё аввали хатти боздорӣ барои гардиш ба чап, ё ин ки тобхўрӣ. Агар дар аломати 5.8.4 аломате тасвир шуда бошад, ки ҳаракати ягон намуди воситаи нақлиётро манъ намояд, он гоҳ ҳаракати ин гуна воситаҳои нақлиёт бо хатти мазкур манъ аст.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.8.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RU_road_sign_5.15.5.svg/60px-RU_road_sign_5.15.5.svg.png",
+        "name": "Охири хат",
+        "description": "Охири хатти иловагӣ дар кўтал ё хатти суръатафзоӣ."
+      },
+      {
+        "id": "5.8.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/RU_road_sign_5.15.6.svg/60px-RU_road_sign_5.15.6.svg.png",
+        "name": "Охири хатти барои ҳаракат ба самти додашуда пешбинӣ шудааст.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.8.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/RU_road_sign_5.15.7_B.svg/120px-RU_road_sign_5.15.7_B.svg.png",
+        "name": "Самти ҳаракат бо хатҳо",
+        "description": "Агар дар аломати 5.8.7 тасвири аломатҳои манъкунанда ё дастурдиҳандаи ягон намуди воситаи нақлиёт кашида шуда бошад, он гоҳ маҳдудиятҳои зикршуда, шароит ё тартиби ҳаракат ба хатти дахлдор ҷорӣ карда мешавад.\nҚисми аломатҳои 5.8.7, 5.8.8, ки шумораи хатҳоро барои ҳаракати самти муқобил нишон медиҳанд, метавонанд дар намуди аломатҳои алоҳида иҷро карда шуда дар масофаи хурд аз якдигар гузошта шаванд.\nАломати 5.8.7 мутобиқан бо шумораи тирчаҳо метавонад дар роҳҳои дорои чор ва зиёда аз он хатҳо истифода шавад."
+      },
+      {
+        "id": "5.8.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/RU_road_sign_5.15.7_A.svg/120px-RU_road_sign_5.15.7_A.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.8.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/RU_road_sign_5.15.8.svg/120px-RU_road_sign_5.15.8.svg.png",
+        "name": "Шумораи хатҳо",
+        "description": "Шумораи хатҳои ҳаракат ва тартиби ҳаракат бо хатҳоро нишон медиҳад. Ронанда вазифадор аст, ки талаботи аломатҳои дар тирҳо кашидашударо иҷро намояд."
+      },
+      {
+        "id": "5.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/RU_road_sign_5.14.1.svg/60px-RU_road_sign_5.14.1.svg.png",
+        "name": "Хатти ҳаракат барои воситаҳои нақлиёти маршрутӣ",
+        "description": "Хатте, ки танҳо барои ҳаракати воситаҳои нақлиёти маршрутии бо анбўҳи умумии воситаҳои нақлиёт ҳамсафар пешбинӣ шудааст.\nАмали аломат ба хатте дахл дорад, ки аломати мазкур дар болои он ҷойгир аст. Амали аломате, ки аз тарафи рости роҳ гузошта шудааст, ба хатти канори тарафи рост дахл дорад."
+      },
+      {
+        "id": "5.10.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RU_road_sign_5.11.1.svg/60px-RU_road_sign_5.11.1.svg.png",
+        "name": "Роҳ бо хатти ҳаракат барои воситаҳои нақлиёти маршрутӣ",
+        "description": "Роҳе, ки ҳаракати воситаҳои нақлиёти маршрутӣ бо он мувофиқи хатти махсуси ҷудокардашуда ба муқобили анбўҳи асосии воситаҳои нақлиёт анҷом дода мешавад."
+      },
+      {
+        "id": "5.10.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RU_road_sign_5.13.1.svg/60px-RU_road_sign_5.13.1.svg.png",
+        "name": "Баромад ба роҳи дорои хатти ҳаракат барои воситаҳои нақлиёти маршрутӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.10.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/RU_road_sign_5.13.2.svg/60px-RU_road_sign_5.13.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.10.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/RU_road_sign_5.12.1.svg/60px-RU_road_sign_5.12.1.svg.png",
+        "name": "Охири роҳи дорои хатти ҳаракат барои воситаҳои нақлиёти маршрутӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.11.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RU_road_sign_6.3.1.svg/60px-RU_road_sign_6.3.1.svg.png",
+        "name": "Ҷой барои тобхўрӣ",
+        "description": "Гардиш ба дасти чап манъ аст."
+      },
+      {
+        "id": "5.11.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/RU_road_sign_6.3.2.svg/60px-RU_road_sign_6.3.2.svg.png",
+        "name": "Минтақа барои тобхурӣ",
+        "description": "Дарозии минтақа барои тобхурӣ. Гардиш ба дасти чап манъ аст."
+      },
+      {
+        "id": "5.12",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_5.16.svg/60px-RU_road_sign_5.16.svg.png",
+        "name": "Истгоҳи автобус ва (ё) троллейбус",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.13",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RU_road_sign_5.17.svg/60px-RU_road_sign_5.17.svg.png",
+        "name": "Истгоҳи трамвай",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.14",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/RU_road_sign_5.18.svg/60px-RU_road_sign_5.18.svg.png",
+        "name": "Таваққуфгоҳи таксиҳои сабукрав",
+        "description": "Аломат минтақаро дар қисми мошингарди роҳ ё майдони махсусро , ки танҳо барои таваққуфгоҳи таксиҳои сабукрав пешбинӣ шудааст, ифода мекунад."
+      },
+      {
+        "id": "5.15",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/RU_road_sign_6.4_A.svg/60px-RU_road_sign_6.4_A.svg.png",
+        "name": "Таваққуфгоҳ (ҷойи таваққуф)",
+        "description": "Аломат майдони махсус, минтақаро дар қисми мошингарди роҳ ё дар роҳи пиёдагард ифода мекунад, ки барои таваққуфи воситаҳои нақлиёт ҷудо карда шудааст. Барои аниқ намудани самти ҳаракат, масофа то майдони махсус ва шароитҳои иҷозат додашудаи таваққуф дар он бо аломати 5.15, метавонанд лавҳачаҳо истифода шаванд."
+      },
+      {
+        "id": "5.16.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/RU_road_sign_5.19.2.svg/60px-RU_road_sign_5.19.2.svg.png",
+        "name": "Гузаргоҳи пиёдагард",
+        "description": "Аломатҳо минтақаро барои гузаштани пиёдагардон аз қисми мошингарди роҳ ифода мекунанд. Ҳангоми дар гузаргоҳ мавҷуд набудани нишонаи 1.14.1 ё 1.14.2 аломати 5.16.1 дар тарафи рости аз роҳ дар ҳудуди наздиктарини гузаргоҳ нисбати воситаҳои нақлиёти наздикшаванда гузошта мешавад."
+      },
+      {
+        "id": "5.16.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RU_road_sign_5.19.1.svg/60px-RU_road_sign_5.19.1.svg.png",
+        "name": "Аломатҳо минтақаро барои гузаштани пиёдагардон аз қисми мошингарди роҳ ифода мекунанд. Ҳангоми дар гузаргоҳ мавҷуд набудани нишонаи 1.14.1 ё 1.14.2 аломати 5.16.2 дар тарафи чап аз роҳ дар ҳудуди дуртарини гузаргоҳ нисбати воситаҳои нақлиёти наздикшаванда гузошта мешавад.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.17.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/RU_road_sign_6.6.svg/60px-RU_road_sign_6.6.svg.png",
+        "name": "Гузаргоҳи пиёдагарди зеризаминӣ",
+        "description": "Ҷойеро нишон медиҳад, ки пиёдагардон метавонанд бехавф аз роҳ бо ёрии гузаргоҳи пиёдагардии зеризаминӣ гузаранд."
+      },
+      {
+        "id": "5.17.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/SU_road_sign_5.17.1.svg/60px-SU_road_sign_5.17.1.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.17.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/SU_road_sign_5.17.3.svg/60px-SU_road_sign_5.17.3.svg.png",
+        "name": "Гузаргоҳи пиёдагарди рўйизаминӣ",
+        "description": "Ҷойеро нишон медиҳад, ки пиёдагардон метавонанд бехавф аз роҳ бо ёрии гузаргоҳи пиёдагардии рўйизаминӣ гузаранд."
+      },
+      {
+        "id": "5.17.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RU_road_sign_6.7.svg/60px-RU_road_sign_6.7.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.18",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/RU_road_sign_6.2-50.svg/60px-RU_road_sign_6.2-50.svg.png",
+        "name": "Суръати тавсияшаванда",
+        "description": "Суръате, ки бо он дар қитъаи додашудаи роҳ ҳаракат кардан тавсия мешавад. Минтақаи амали аломат то чорроҳаи наздиктарин мебошад ва ҳангоми якҷоя истифода кардани аломати 5.18 бо аломати огоҳкунанда амали он бо дарозии қитъаи хатарнок муайян карда мешавад."
+      },
+      {
+        "id": "5.19.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/RU_road_sign_6.8.1.svg/60px-RU_road_sign_6.8.1.svg.png",
+        "name": "Бунбаст",
+        "description": "Роҳи сарбастаеро нишон медиҳад, ки ҳаракати гузаро ғайриимкон аст, вале ҳаракатро ба самти бунбаст манъ намекунад."
+      },
+      {
+        "id": "5.19.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/RU_road_sign_6.8.2.svg/60px-RU_road_sign_6.8.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.19.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/RU_road_sign_6.8.3.svg/60px-RU_road_sign_6.8.3.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.20.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/TJ_road_sign_5.20.1_A.svg/120px-TJ_road_sign_5.20.1_A.svg.png",
+        "name": "Ишораи пешакии самтҳо",
+        "description": "Самти ҳаракат ба сўйи маҳалҳои аҳолинишин ё дигар иншоотро нишон медиҳад. Дар аломатҳо мумкин аст, рамзҳои шоҳроҳ, майдони ҳавоӣ, тасвирҳои аломатҳои 5.29.1, 5.29.2, инчунин дигар рамзҳо ва аломатҳои аз хусусиятҳои ҳаракат дар роҳ хабардоркунанда нишон дода шаванд. Дар қисми поёни аломати 5.20.1 масофа аз ҷойҳои гузоштани он то чорроҳа ё аввали хатти боздорӣ нишон дода мешавад.\nАломати 5.20.1 ҳамчунин барои нишон додани роҳи нақшаи хатсайри гузаштан аз паҳлуи қитъаҳои роҳе, ки дар онҳо яке аз аломатҳои манъкунандаи 3.4, 3.6, 3.11, 312, 313 – 3.15 гузошта шудааст, истифода мегардад. Дар ин ҳолат дар аломат бояд нақшаи хатсайри гузаштан аз бари монеа ва тасвири аломати манъкунандаи дахлдор кашида шавад."
+      },
+      {
+        "id": "5.20.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TJ_road_sign_5.20.2_A.svg/120px-TJ_road_sign_5.20.2_A.svg.png",
+        "name": "Ишораи пешакии самт",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.20.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/SU_road_sign_5.20.3.svg/120px-SU_road_sign_5.20.3.svg.png",
+        "name": "Нақшаи ҳаракат",
+        "description": "Хатти сайр, ҳангоми дар чорроҳа манъ будани баъзе манёврҳо ё самтҳои иҷозатдодашудаи ҳаракат дар чорроҳаи мураккаб."
+      },
+      {
+        "id": "5.21.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TJ_road_sign_5.21.1_A.svg/120px-TJ_road_sign_5.21.1_A.svg.png",
+        "name": "Ишораи самтҳо",
+        "description": "Самти (самтҳои) ҳаракат ба сўйи маҳалҳои аҳолинишин ё дигар иншоотро нишон медиҳад. Дар аломатҳо мумкин аст, масофа то иншооти дар онҳо зикршуда (км), рамзҳои шоҳроҳ, майдони ҳавоӣ, тасвирҳои аломатҳои 5.29.1, 5.29.2, инчунин дигар рамзҳо ва аломатҳои аз хусусиятҳои ҳаракат дар роҳ хабардоркунанда, нишон дода шаванд."
+      },
+      {
+        "id": "5.21.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/TJ_road_sign_5.21.2.svg/120px-TJ_road_sign_5.21.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.22.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/TJ_road_sign_5.22.1.svg/120px-TJ_road_sign_5.22.1.svg.png",
+        "name": "Аввали маҳалли аҳолинишин",
+        "description": "Ном ва саршавии маҳалли аҳолинишине, ки дар он талаботи махсуси муқарраркардаи Қоидаҳо оид ба тартиби ҳаракат дар маҳаллҳои аҳолинишин, амал мекунад."
+      },
+      {
+        "id": "5.22.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/RU_road_sign_5.23.2.svg/120px-RU_road_sign_5.23.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.23.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TJ_road_sign_5.23.1.svg/120px-TJ_road_sign_5.23.1.svg.png",
+        "name": "Охири маҳалли аҳолинишин",
+        "description": "Ҷойи роҳ, ки аз он талаботи махсуси муқарраркардаи Қоидаҳо оид ба тартиби ҳаракат дар маҳалҳои аҳолинишин, қувваи худро гум мекунад."
+      },
+      {
+        "id": "5.23.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/RU_road_sign_5.24.2.svg/120px-RU_road_sign_5.24.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.24",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/TJ_road_sign_5.24.svg/120px-TJ_road_sign_5.24.svg.png",
+        "name": "Аввали сарҳади маҳалли аҳолинишин",
+        "description": "Ном ва саршавии маҳалли аҳолинишине, ки дар он талаботи муқарраркардаи ҳамин Қоидаҳо оид ба ҳаракат дар маҳалҳои аҳолинишин, амал намекунад."
+      },
+      {
+        "id": "5.25",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/TJ_road_sign_5.25.svg/120px-TJ_road_sign_5.25.svg.png",
+        "name": "Охири сарҳади маҳалли аҳолинишин",
+        "description": "Охири сарҳади маҳалли аҳолинишине, ки бо аломати 5.24 ифода шудааст."
+      },
+      {
+        "id": "5.26.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/RU_road_sign_6.11_A.svg/120px-RU_road_sign_6.11_A.svg.png",
+        "name": "Номи иншоот",
+        "description": "Номи дигар иншоот, ки ба маҳалли аҳолинишин мансуб нест (дарё, кўл, ағба, кўчаҳо, ҷойҳои тамошобоб монанди инҳо)."
+      },
+      {
+        "id": "5.27",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/TJ_road_sign_5.27.svg/120px-TJ_road_sign_5.27.svg.png",
+        "name": "Ишораи масофаҳо",
+        "description": "Масофа (км) то маҳалҳои аҳолинишин, ки дар хатсайр ҷойгиранд."
+      },
+      {
+        "id": "5.28",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RU_road_sign_6.13_B.svg/60px-RU_road_sign_6.13_B.svg.png",
+        "name": "Аломати километрӣ",
+        "description": "Масофа (км) то саршавӣ ё анҷоми роҳ."
+      },
+      {
+        "id": "5.29.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/M9-RUS.svg/120px-M9-RUS.svg.png",
+        "name": "Рақами хатсайр",
+        "description": "Рақаме, ки ба роҳ (хатсайр) дода шудааст."
+      },
+      {
+        "id": "5.29.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/RU_road_sign_6.14.2_C.svg/120px-RU_road_sign_6.14.2_C.svg.png",
+        "name": "Рақами хатсайр",
+        "description": "Рақам ва самти роҳ (хатсайр)."
+      },
+      {
+        "id": "5.30.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_6.15.1.svg/120px-RU_road_sign_6.15.1.svg.png",
+        "name": "Самти ҳаракат барои автомобилҳои боркаш",
+        "description": "Самти ҳаракати тавсияшаванда барои автомобилҳои боркаш, тракторҳо ва мошинҳои худгард, агар дар чорроҳа ҳаракати онҳо ба яке аз самтҳо манъ бошад."
+      },
+      {
+        "id": "5.30.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_6.15.2.svg/120px-RU_road_sign_6.15.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.30.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/RU_road_sign_6.15.3.svg/120px-RU_road_sign_6.15.3.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.31",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/TJ_road_sign_5.31.svg/120px-TJ_road_sign_5.31.svg.png",
+        "name": "Нақшаи аз бари монеа гузаштан",
+        "description": "Хатсайри гузаштан аз бари қитъаи роҳи муваққатан барои ҳаракат басташуда."
+      },
+      {
+        "id": "5.32.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/TJ_road_sign_5.32.1.svg/120px-TJ_road_sign_5.32.1.svg.png",
+        "name": "Самти аз бари монеа гузаштан",
+        "description": "Самти гузаштан аз бари қитъаи роҳи муваққатан барои ҳаракат басташуда."
+      },
+      {
+        "id": "5.32.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/TJ_road_sign_5.32.2.svg/120px-TJ_road_sign_5.32.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.32.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/TJ_road_sign_5.32.3.svg/120px-TJ_road_sign_5.32.3.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.33",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RU_road_sign_6.16.svg/120px-RU_road_sign_6.16.svg.png",
+        "name": "Хатти бозистӣ",
+        "description": "Ҷойи бозистии воситаҳои нақлиёт ҳангоми сигнали манъкунандаи танзимгар, чароғаки раҳнамо."
+      },
+      {
+        "id": "5.34.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RU_road_sign_6.19.1.svg/120px-RU_road_sign_6.19.1.svg.png",
+        "name": "Ишорати пешакӣ ба дигар қисми мошингард гузаштан",
+        "description": "Самти гузаштан аз бари қитъаи қисми мошингард барои ҳаракат басташуда дар роҳе, ки хатти тақсим ё самти ҳаракат барои баргаштан ба тарафи рости қисми мошингард дорад."
+      },
+      {
+        "id": "5.34.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/RU_road_sign_6.19.2.svg/120px-RU_road_sign_6.19.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.35",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RU_road_sign_5.8.svg/60px-RU_road_sign_5.8.svg.png",
+        "name": "Ҳаракати ақибгардӣ (реверсивӣ)",
+        "description": "Саршавии қитъаи роҳе, ки дар он дар як ё якчанд хатҳои самти ҳаракат метавонад ба самти муқобил тағйир ёбад."
+      },
+      {
+        "id": "5.36",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/RU_road_sign_5.9.svg/60px-RU_road_sign_5.9.svg.png",
+        "name": "Охири ҳаракати ақибгардӣ",
+        "description": "Саршавии қитъаи роҳе, ки бо аломати 5.35 ифода шудааст."
+      },
+      {
+        "id": "5.37",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/RU_road_sign_5.10.svg/60px-RU_road_sign_5.10.svg.png",
+        "name": "Баромад ба роҳи дорои ҳаракати ақибгардӣ",
+        "description": "Баромад ба қитъаи роҳе, ки дар он дар як ё якчанд хатҳои самти ҳаракат метавонад ба самти муқобил тағйир ёбад."
+      },
+      {
+        "id": "5.38",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RU_road_sign_5.21.svg/60px-RU_road_sign_5.21.svg.png",
+        "name": "Минтақаи истиқоматӣ",
+        "description": "Оғози ҳудуде, ки дар он талаботи махсуси муқарраркардаи ҳамин Қоидаҳо оид ба тартиби ҳаракат дар минтақаи истиқоматӣ, амал мекунад."
+      },
+      {
+        "id": "5.39",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/RU_road_sign_5.22.svg/60px-RU_road_sign_5.22.svg.png",
+        "name": "Охири минтақаи истиқоматӣ",
+        "description": "Охири ҳудуде, ки дар он талаботи махсуси муқарраркардаи ҳамин Қоидаҳо оид ба тартиби ҳаракат дар минтақаи истиқоматӣ, амал мекунад."
+      },
+      {
+        "id": "5.40",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/RU_road_sign_5.20.svg/60px-RU_road_sign_5.20.svg.png",
+        "name": "Ноҳамвории сунъӣ",
+        "description": "Сарҳади ноҳамвориҳои сунъиро ишорат мекунад. Аломат дар сарҳади наздиктарини ноҳамвории сунъӣ нисбат ба воситаҳои нақлиёти наздикшаванда гузошта мешавад."
+      },
+      {
+        "id": "5.41",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RU_road_sign_5.31.svg/60px-RU_road_sign_5.31.svg.png",
+        "name": "Минтақа бо таваққуфгоҳи маҳдуд",
+        "description": "Ҷойе, ки аз он ҳудуди (қитъаи роҳи) таваққуфгоҳи маҳдуд дошта, оғоз мешавад."
+      },
+      {
+        "id": "5.42",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/RU_road_sign_5.32.svg/60px-RU_road_sign_5.32.svg.png",
+        "name": "Охири минтақа бо таваққуфгоҳи маҳдуд",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.43",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/RU_road_sign_5.29.svg/60px-RU_road_sign_5.29.svg.png",
+        "name": "Минтақаи таваққуфгоҳи танзимшаванда",
+        "description": "Ҷойе, ки аз он ҳудуде (қитъаи роҳе) оғоз мешавад, ки таваққуф иҷозат дода шудааст ва тавассути лавҳачаҳо ё нишонаҳои роҳ танзим карда мешавад."
+      },
+      {
+        "id": "5.44",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/RU_road_sign_5.30.svg/60px-RU_road_sign_5.30.svg.png",
+        "name": "Охири минтақаи таваққуфгоҳи танзимшаванда",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.45",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RU_road_sign_5.31.svg/60px-RU_road_sign_5.31.svg.png",
+        "name": "Минтақа бо суръати ниҳоии маҳдудшуда",
+        "description": "Ҷойе, ки аз он ҳудуде (қитъаи роҳе) оғоз мешавад, ки суръати ниҳоии ҳаракат маҳдуд карда шудааст."
+      },
+      {
+        "id": "5.46",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/RU_road_sign_5.32.svg/60px-RU_road_sign_5.32.svg.png",
+        "name": "Охири минтақа бо суръати нихоии маҳдудшуда",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.47",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RU_road_sign_5.33.svg/60px-RU_road_sign_5.33.svg.png",
+        "name": "Минтақаи пиёдагардӣ",
+        "description": "Ҷойе, ки аз он ҳудуде (қитъаи роҳе), оғоз мешавад, ки танҳо барои ҳаракати пиёдагардон иҷозат дода шудааст."
+      },
+      {
+        "id": "5.48",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/RU_road_sign_5.34.svg/60px-RU_road_sign_5.34.svg.png",
+        "name": "Охири минтақаи пиёдагардӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.49",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/TJ_road_sign_5.49.svg/60px-TJ_road_sign_5.49.svg.png",
+        "name": "Маҳдудияти умумии суръати ниҳоӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.50",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RU_road_sign_6.5.svg/60px-RU_road_sign_6.5.svg.png",
+        "name": "Хатти бозистии садамавӣ",
+        "description": "Хатти бозистии садамавӣ дар нишебии тез."
+      },
+      {
+        "id": "5.51.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/TJ_road_sign_5.51.1.svg/120px-TJ_road_sign_5.51.1.svg.png",
+        "name": "Роҳи пулакӣ",
+        "description": "Аломат ронандагонро хабардор месозад, ки барои рафту омад маблағ рўёнида мешавад."
+      },
+      {
+        "id": "5.51.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TJ_road_sign_5.51.2.svg/120px-TJ_road_sign_5.51.2.svg.png",
+        "name": "Охири роҳи пулакӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.52.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/RU_road_sign_6.20.1.svg/60px-RU_road_sign_6.20.1.svg.png",
+        "name": "Баромадгоҳи садамавӣ",
+        "description": "Дар нақб ҷойеро, ки баромадгоҳи садамавӣ ҷойгир аст, нишон медиҳад."
+      },
+      {
+        "id": "5.52.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/RU_road_sign_6.20.2.svg/60px-RU_road_sign_6.20.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.53.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/RU_road_sign_6.21.1.svg/120px-RU_road_sign_6.21.1.svg.png",
+        "name": "Самти ҳаракат ба баромадгоҳи садамавӣ",
+        "description": "Самти ҳаракатро ба баромадгоҳи садамавӣ ва масофаро то он нишон медиҳад."
+      },
+      {
+        "id": "5.53.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/RU_road_sign_6.21.2.svg/120px-RU_road_sign_6.21.2.svg.png",
+        "name": "Роҳи оҳани бисёрхатта",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      }
+    ],
+    "Аломатҳои хизматрасонӣ": [
+      {
+        "id": "6.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/RU_road_sign_7.1.svg/60px-RU_road_sign_7.1.svg.png",
+        "name": "Нуқтаи ёрии аввалияи тиббӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/RU_road_sign_7.2.svg/60px-RU_road_sign_7.2.svg.png",
+        "name": "Беморхона",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/RU_road_sign_7.3.svg/60px-RU_road_sign_7.3.svg.png",
+        "name": "Нуқтаи таъмини сўзишворӣ",
+        "description": "Аломат нуқтаи таъмини сўзишвории бензинӣ ва дизелиро ифода менамояд."
+      },
+      {
+        "id": "6.3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/BY_road_sign_6.3.2.svg/60px-BY_road_sign_6.3.2.svg.png",
+        "name": "Аломат нуқтаи таъмини сўзишвории газиро ифода менамояд.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.3.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BY_road_sign_6.3.3.svg/60px-BY_road_sign_6.3.3.svg.png",
+        "name": "Аломат нуқтаи таъмини сўзишвории бензинӣ, дизелӣ ва газиро ифода мекунад."
+      
+     ,   "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RU_road_sign_7.4.svg/60px-RU_road_sign_7.4.svg.png",
+        "name": "Хидматрасонии техникии автомобилҳо",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RU_road_sign_7.5.svg/60px-RU_road_sign_7.5.svg.png",
+        "name": "Ҷойи шустани мошинҳо",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/RU_road_sign_7.6.svg/60px-RU_road_sign_7.6.svg.png",
+        "name": "Телефон",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/RU_road_sign_7.7.svg/60px-RU_road_sign_7.7.svg.png",
+        "name": "Ҷойи хўрокхўрӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/RU_road_sign_7.8.svg/60px-RU_road_sign_7.8.svg.png",
+        "name": "Оби нўшокӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/RU_road_sign_7.9.svg/60px-RU_road_sign_7.9.svg.png",
+        "name": "Меҳмонхона ё мотел",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.10",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/RU_road_sign_7.10.svg/60px-RU_road_sign_7.10.svg.png",
+        "name": "Кемпинг",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.11",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RU_road_sign_7.11.svg/60px-RU_road_sign_7.11.svg.png",
+        "name": "Ҷойи истироҳат",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.12",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SU_road_sign_6.12.svg/60px-SU_road_sign_6.12.svg.png",
+        "name": "Посгоҳи БДА",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.13",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Tajikistan_road_sign_6.13.svg/60px-Tajikistan_road_sign_6.13.svg.png",
+        "name": "Милитсия",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.14",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tajikistan_road_sign_6.14.svg/60px-Tajikistan_road_sign_6.14.svg.png",
+        "name": "Нуқтаи назорати интиқолҳои автомобилии байналмиллалӣ",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.15",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/RU_road_sign_7.17.svg/60px-RU_road_sign_7.17.svg.png",
+        "name": "Ҳавз ё пляж",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.16",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/RU_road_sign_7.18.svg/60px-RU_road_sign_7.18.svg.png",
+        "name": "Ҳоҷатхона",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.17",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/RU_road_sign_7.20.svg/60px-RU_road_sign_7.20.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      }
+    ],
+    "Аломатҳои иловагӣ": [
+      {
+        "id": "7.1.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/RU_road_sign_8.1.1.svg/60px-RU_road_sign_8.1.1.svg.png",
+        "name": "Масофа то иншоот",
+        "description": "Масофаро аз аломат то саршавии қитъаи хатарнок, ё то ҷойе, ки аз он маҳдудияти дахлдор амал мекунад, ё то иншооти (ҷойи) муайян, ки дар рафти ҳаракат пеш меоянд, нишон медиҳад."
+      },
+      {
+        "id": "7.1.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/RU_road_sign_8.1.2.svg/60px-RU_road_sign_8.1.2.svg.png",
+        "name": "Масофаро аз аломати 2.4 то чорроҳа, дар сурате ки бевосита пеш аз чорроҳа аломати 2.5 гузошта шуда бошад, нишон медиҳад.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "7.1.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/RU_road_sign_8.1.3.svg/60px-RU_road_sign_8.1.3.svg.png",
+        "name": "Масофаро то иншооти дуртар аз роҳ қарордошта, нишон медиҳад.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "7.1.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RU_road_sign_8.1.4.svg/60px-RU_road_sign_8.1.4.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.2.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/RU_road_sign_8.2.1.svg/60px-RU_road_sign_8.2.1.svg.png",
+        "name": "Минтақаи амал",
+        "description": "Дарозии қитъаи хатарноки роҳро, ки бо аломатҳои огоҳкунанда ишорат шудааст ё минтақаи амали аломатҳои манъкунанда, дастурдиҳанда ё ин ки иттилоотию ишоратиро нишон медиҳанд."
+      },
+      {
+        "id": "7.2.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/RU_road_sign_8.2.2.svg/40px-RU_road_sign_8.2.2.svg.png",
+        "name": "Минтақаи амали аломатҳои манъкунандаи 3.27-3.30, агар он то чорроҳаи наздиктарин паҳн нагардад, ҳамчунин паҳноии минтақаи гузаргоҳи пиёдагардро, ки бо аломатҳои 5.16.1 ва 5.16.2 ишорат шудаанд, нишон медиҳад.",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.2.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RU_road_sign_8.2.3.svg/40px-RU_road_sign_8.2.3.svg.png",
+        "name": "Охири амали аломатҳои 3.27-3.30-ро нишон медиҳанд.",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.2.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/RU_road_sign_8.2.4.svg/40px-RU_road_sign_8.2.4.svg.png",
+        "name": "Ба ронандагон дар минтақаи амали аломатҳои 3.27-3.30 буданашон маълумот медиҳад.",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.2.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/RU_road_sign_8.2.5.svg/60px-RU_road_sign_8.2.5.svg.png",
+        "name": "Самт ва минтақаи амали аломатҳои 3.27-3.30-ро ҳангоми манъ будани бозистӣ ё таваққуф ба дарозии як тарафи майдон, пеши бино ва монанди инҳо нишон медиҳанд.",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.2.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/RU_road_sign_8.2.6.svg/60px-RU_road_sign_8.2.6.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/RU_road_sign_8.3.1.svg/60px-RU_road_sign_8.3.1.svg.png",
+        "name": "Самтҳои амал",
+        "description": "Самтҳои амали аломатҳоеро, ки пеш аз чорроҳа гузошта шудаанд ё самти ҳаракатро ба иншооти ишорашудае, ки бевосита дар назди роҳ воқеъ мебошанд, нишон медиҳанд."
+      },
+      {
+        "id": "7.3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/RU_road_sign_8.3.2.svg/60px-RU_road_sign_8.3.2.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.3.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RU_road_sign_8.3.3.svg/60px-RU_road_sign_8.3.3.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.4.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RU_road_sign_8.4.1.svg/60px-RU_road_sign_8.4.1.svg.png",
+        "name": "Намуди воситаи нақлиёт",
+        "description": "Намуди воситаи нақлиётро, ки амали аломат ба он дахл дорад, нишон медиҳанд.\nЛавҳачаи 7.4.1 амали аломатро ба автомобилҳои боркаш, аз ҷумла бо ядак низ, ки вазни ниҳоии ҷоизи онҳо аз 3,5 тонна зиёд аст, лавҳачаи 7.4.3 – ба автомобилҳои сабукрав, ҳамчунин автомобилҳои боркаше, ки вазни ниҳоии ҷоизи онҳо то 3,5 т аст ва лавҳачаи 7.4.8 – ба воситаҳои нақлиёте, ки бо аломатҳои фарқкунандаи \"Бори хатарнок\" муҷаҳҳазанд, паҳн менамояд."
+      },
+      {
+        "id": "7.4.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SU_road_sign_7.4.2.svg/60px-SU_road_sign_7.4.2.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.4.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/RU_road_sign_8.4.3.2.svg/60px-RU_road_sign_8.4.3.2.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.4.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/RU_road_sign_8.4.4.svg/60px-RU_road_sign_8.4.4.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.4.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/RU_road_sign_8.4.5.svg/60px-RU_road_sign_8.4.5.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.4.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/RU_road_sign_8.4.6.svg/60px-RU_road_sign_8.4.6.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.4.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/RU_road_sign_8.4.7.svg/60px-RU_road_sign_8.4.7.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.4.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/RU_road_sign_8.4.8.svg/60px-RU_road_sign_8.4.8.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.5.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/RU_road_sign_8.5.1.svg/60px-RU_road_sign_8.5.1.svg.png",
+        "name": "Рўзҳои шанбе, якшанбе ва ид",
+        "description": "Рўзҳои ҳафтаро, ки дар давоми онҳо аломат амал мекунад."
+      },
+      {
+        "id": "7.5.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/RU_road_sign_8.5.2.svg/60px-RU_road_sign_8.5.2.svg.png",
+        "name": "Рўзҳои корӣ",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.5.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/RU_road_sign_8.5.3.svg/60px-RU_road_sign_8.5.3.svg.png",
+        "name": "Рўзҳои ҳафта",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.5.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/RU_road_sign_8.5.4.svg/60px-RU_road_sign_8.5.4.svg.png",
+        "name": "Вақти амал",
+        "description": "Вақти шабонарўзро нишон медиҳад, ки дар давоми он аломат амал мекунад."
+      },
+      {
+        "id": "7.5.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/RU_road_sign_8.5.5.svg/60px-RU_road_sign_8.5.5.svg.png",
+        "name": "Рўзҳои ҳафта ва вақти шабонарўзро нишон медиҳанд, ки дар давоми онҳо аломат амал мекунад.",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.5.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/RU_road_sign_8.5.6.svg/60px-RU_road_sign_8.5.6.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.5.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/TJ_road_sign_7.5.7.svg/60px-TJ_road_sign_7.5.7.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.6.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/RU_road_sign_8.6.1.svg/60px-RU_road_sign_8.6.1.svg.png",
+        "name": "Тарзи гузоштани воситаи нақлиёт дар таваққуфгоҳ",
+        "description": "Нишон медиҳад, ки ҳамаи воситаҳои нақлиёт бояд дар таваққуфгоҳ мувозӣ ба канори қисми мошингард гузошта шаванд."
+      },
+      {
+        "id": "7.6.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RU_road_sign_8.6.2.svg/60px-RU_road_sign_8.6.2.svg.png",
+        "name": "Тарзи гузоштани автомобилҳои сабукрав ва мототсиклҳоро дар таваққуфгоҳи назди пиёдароҳа, нишон медиҳанд.",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.6.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/RU_road_sign_8.6.3.svg/60px-RU_road_sign_8.6.3.svg.png",
+        "name": "Оташхомўшкунак",
+
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.6.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RU_road_sign_8.6.4.svg/60px-RU_road_sign_8.6.4.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.6.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RU_road_sign_8.6.5.svg/60px-RU_road_sign_8.6.5.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.6.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RU_road_sign_8.6.6.svg/60px-RU_road_sign_8.6.6.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.6.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/RU_road_sign_8.6.7.svg/60px-RU_road_sign_8.6.7.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.6.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/RU_road_sign_8.6.8.svg/60px-RU_road_sign_8.6.8.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.6.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/RU_road_sign_8.6.9.svg/60px-RU_road_sign_8.6.9.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/RU_road_sign_8.7.svg/60px-RU_road_sign_8.7.svg.png",
+        "name": "Таваққуф бо муҳаррики хомўшкардашуда",
+        "description": "Лавҳача нишон медиҳад, ки дар таваққуфгоҳи бо аломати 5.15 ишоратшуда, таваққуфи воситаҳои нақлиёт танҳо бо муҳаррики хомўшкардашуда иҷозат дода мешавад."
+      },
+      {
+        "id": "7.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/RU_road_sign_8.8.svg/60px-RU_road_sign_8.8.svg.png",
+        "name": "Хидматрасонии пулакӣ",
+        "description": "Нишон медиҳад, ки хидматрасониҳо фақат бо пули нақд анҷом дода мешаванд."
+      },
+      {
+        "id": "7.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/RU_road_sign_8.9.1.svg/60px-RU_road_sign_8.9.1.svg.png",
+        "name": "Маҳдудияти муддати таваққуф",
+        "description": "Муддати ниҳоии қарор доштани воситаи нақлиётро дар таваққуфгоҳи бо аломати 5.15 ишоратшуда нишон медиҳад."
+      },
+      {
+        "id": "7.10",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/RU_road_sign_8.10.svg/60px-RU_road_sign_8.10.svg.png",
+        "name": "Ҷой барои муоинаи автомобилҳо",
+        "description": "Нишон медиҳад, ки дар майдончаи бо аломати 5.15 ё 6.11 ишоратшуда эстакада ё чоҳ барои муоина мавҷуд аст."
+      },
+      {
+        "id": "7.11",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/RU_road_sign_8.11.svg/60px-RU_road_sign_8.11.svg.png",
+        "name": "Маҳдудияти вазни ниҳоии ҷоиз",
+        "description": "Нишон медиҳад, ки амали аломат танҳо ба воситаҳои нақлиёти вазни ниҳоии ҷоизашон аз вазни дар лавҳача зикршуда зиёд дахл дорад."
+      },
+      {
+        "id": "7.12",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/RU_road_sign_8.12.svg/60px-RU_road_sign_8.12.svg.png",
+        "name": "Канори хатарноки роҳ",
+        "description": "Огоҳ месозад, ки баромадан ба канори роҳ бо сабаби дар он бурдани корҳои таъмирӣ хатарнок аст. Якҷоя бо аломати 1.23 истифода мегардад."
+      },
+      {
+        "id": "7.13",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RU_road_sign_8.13.svg/60px-RU_road_sign_8.13.svg.png",
+        "name": "Самти роҳи асосӣ",
+        "description": "Самти роҳи асосиро дар чорроҳа нишон медиҳад."
+      },
+      {
+        "id": "7.14",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/RU_road_sign_8.14.svg/60px-RU_road_sign_8.14.svg.png",
+        "name": "Хатти ҳаракат",
+        "description": "Хатти ҳаракат ё хатти ҳаракати велосипедрононеро нишон медиҳад, ки амали аломат ё чароғи роҳнамо ба он дахл дорад."
+      },
+      {
+        "id": "7.15",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RU_road_sign_8.15.svg/60px-RU_road_sign_8.15.svg.png",
+        "name": "Пиёдагардони – маъюб аз биноӣ",
+        "description": "Нишон медиҳад, ки аз гузаргоҳи пиёдагардон зуд-зуд маъюбон аз биноӣ мегузаранд. Якҷоя бо аломатҳои 1.20, 5.16.1, 5.16.2 ва чароғҳои роҳнамо истифода мегардад."
+      },
+      {
+        "id": "7.16",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/RU_road_sign_8.16.svg/60px-RU_road_sign_8.16.svg.png",
+        "name": "Роҳи тар",
+        "description": "Лавҳача нишон медиҳад, ки талаботи аломат танҳо дар вақти намнок будани қисми мошингарди роҳ амал мекунад."
+      },
+      {
+        "id": "7.17",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/RU_road_sign_8.17.svg/60px-RU_road_sign_8.17.svg.png",
+        "name": "Маъюбон",
+        "description": "Нишон медиҳад, ки амали аломати 5.15 танҳо ба мотоколяскаҳо ва автомобилҳое, ки дар онҳо аломати фарқкунандаи \"Маъюб\" насб карда шудааст, паҳн мегардад."
+      },
+      {
+        "id": "7.18",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/RU_road_sign_8.18.svg/60px-RU_road_sign_8.18.svg.png",
+        "name": "Ба ғайр аз маъюбон",
+        "description": "Нишон медиҳад, ки амали аломатҳо ба мотоколяскаҳо ва автомобилҳое, ки дар онҳо аломати фарқкунандаи \"Инвалид\" насб карда шудааст, паҳн намегардад."
+      },
+      {
+        "id": "7.19",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/TJ_road_sign_7.19.svg/60px-TJ_road_sign_7.19.svg.png",
+        "name": "Дараҷаи бори хатарнок",
+        "description": "Рақами дараҷаи (дараҷаҳои) борҳои хатарнокро мутобиқ ба талаботи стандартҳои давлатӣ, нишон медиҳад."
+      },
+      {
+        "id": "7.20.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/TJ_road_sign_7.20.1.svg/60px-TJ_road_sign_7.20.1.svg.png",
+        "name": "Намуди тележкаи воситаи нақлиёт",
+        "description": "Якҷоя бо аломати 3.12 истифода мешаванд. Шумораи меҳварҳои наздиккардашудаи воситаи нақлиётро нишон медиҳад, ки барои ҳар яки онҳо вазни дар аломат нишондодашуда ҳадди ниҳоии ҷоиз мебошад."
+      },
+      {
+        "id": "7.20.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/TJ_road_sign_7.20.2.svg/60px-TJ_road_sign_7.20.2.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.21.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/RU_road_sign_8.21.1.svg/60px-RU_road_sign_8.21.1.svg.png",
+        "name": "Намуди воситаи нақлиёти хатсайрдор",
+        "description": "Якҷоя бо аломати 5.15 истифода шуда, ҷойи таваққуфи воситаҳои нақлиётро дар назди стансияи метро, истгоҳи автобус (троллейбус) ё трамвай нишон медиҳад, ки дар онҳо имконияти ба дигар воситаи нақлиёти хатсайрдор нишастан мавҷуд аст."
+      },
+      {
+        "id": "7.21.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/RU_road_sign_8.21.2.svg/60px-RU_road_sign_8.21.2.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.21.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/RU_road_sign_8.21.3.svg/60px-RU_road_sign_8.21.3.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.22.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/RU_road_sign_8.22.1.svg/20px-RU_road_sign_8.22.1.svg.png",
+        "name": "Монеа",
+        "description": "Якҷоя бо аломатҳои 4.2.1, 4.2.3 истифода шуда, монеа ва самти аз он гузаштанро нишон медиҳад."
+      },
+      {
+        "id": "7.22.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/RU_road_sign_8.22.2.svg/20px-RU_road_sign_8.22.2.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.22.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/RU_road_sign_8.22.3.svg/20px-RU_road_sign_8.22.3.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.23",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/BY_road_sign_7.7.svg/60px-BY_road_sign_7.7.svg.png",
+        "name": "Шумораи гардишҳои хатарнок",
+        "description": "Якҷоя бо аломатҳои 1.12.1 ва 1.12.2 истифода шуда, оид ба шумораи гардишҳои хатарноке, ки пайи ҳам меоянд иттилоъ медиҳад."
+      },
+      {
+        "id": "7.24",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/RU_road_sign_8.24.svg/60px-RU_road_sign_8.24.svg.png",
+        "name": "Эвакуатор кор карда истодааст",
+        "description": "Нишон медиҳад, ки дар минтақаи амали аломатҳои 3.27 - 3.30 боздошти воситаҳои нақлиёт анҷом дода мешавад."
+      },
+      {
+        "id": "7.25",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/7.12_Belarus_road_sign.svg/60px-7.12_Belarus_road_sign.svg.png",
+        "name": "Кашидани нишонаҳои роҳ",
+        "description": "Лавҳача бо аломати 1.23 гузошташуда, иттилоъ медиҳад, ки дар роҳ корҳои нишонагузорӣ рафта истодаанд."
+      },
+      {
+        "id": "7.26",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/BY_road_sign_7.23.svg/60px-BY_road_sign_7.23.svg.png",
+        "name": "Ёрии таъҷилӣ",
+        "description": "Аз мавҷуд будани алоқаи таъҷилӣ дар роҳ хабар медиҳад."
+      },
+      {
+        "id": "7.27.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/BY_road_sign_7.22.1.svg/60px-BY_road_sign_7.22.1.svg.png",
+        "name": "Намуди хатар",
+        "description": "Бо аломати 1.35 гузошта мешавад ва оид ба содиршавии намуди эҳтимолии ҳодисаҳои роҳу нақлиётӣ маълумот медиҳад."
+      },
+      {
+        "id": "7.27.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/BY_road_sign_7.22.2.svg/60px-BY_road_sign_7.22.2.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.27.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BY_road_sign_7.22.3.svg/60px-BY_road_sign_7.22.3.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.27.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/BY_road_sign_7.22.4.svg/60px-BY_road_sign_7.22.4.svg.png",
+        "name": "Оташхомўшкунак",
+        "description": "Ҷойи ҷойгиршавии оташхомўшкунакро нишон медиҳад."
+      },
+      {
+        "id": "7.28",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/RU_road_sign_8.23.svg/60px-RU_road_sign_8.23.svg.png",
+        "name": "Қайди аксӣ-видеоӣ",
+        "description": "Бо аломатҳои 1.1, 1.2, 1.8, 1.20, 3.1-3.7, 3.18.1, 3.18.2, 3.19, 3.20, 3.22, 3.24, 3.27-3.30, 5.9, 5.38, 5.41 ва 5.45, инчунин бо чароғакҳои роҳнамо истифода мешавад. Нишон медиҳад, ки дар минтақаи амали аломати роҳ ё ин ки дар қитъаи мазкури роҳ мумкин ҳуқуқвайронкуниҳои маъмурӣ дар реҷаи автоматӣ тавассути воситаҳои махсуси техникие, ки қобилияти гирифтани навори аксӣ - синамоӣ ва видеоӣ ё воситаҳои аксӣ - синамоӣ ва видеоро доранд, сабт гардад. Лавҳачаҳо бевосита дар зери аломатҳое, ки ҳамроҳи онҳо истифода мегарданд, ҷойгир мешаванд."
+      }
+    ]
+  }
 }

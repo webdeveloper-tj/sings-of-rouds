@@ -1,0 +1,1434 @@
+{
+  "roadSigns": {
+    "Warning Signs": [
+      {
+        "id": "1.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/RU_road_sign_1.1.svg/60px-RU_road_sign_1.1.svg.png",
+        "name": "Railway crossing with barrier",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique expedita"
+      },
+      {
+        "id": "1.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/RU_road_sign_1.2.svg/60px-RU_road_sign_1.2.svg.png",
+        "name": "Railway crossing without barrier",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/RU_road_sign_1.3.1.svg/60px-RU_road_sign_1.3.1.svg.png",
+        "name": "Single-track railway",
+        "description": "Indicates a railway crossing without a barrier: 1.3.1 - single-track, 1.3.2 - multi-track."
+      },
+      {
+        "id": "1.3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RU_road_sign_1.3.2.svg/60px-RU_road_sign_1.3.2.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/RU_road_sign_1.4.1.svg/60px-RU_road_sign_1.4.1.svg.png",
+        "name": "Approaching a railway crossing",
+        "description": "Additional warning about approaching a railway crossing outside populated areas. Signs 1.4.1-1.4.3 are placed on the right side, and signs 1.4.4-1.4.6 on the left side of the road."
+      },
+      {
+        "id": "1.4.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/RU_road_sign_1.4.2.svg/60px-RU_road_sign_1.4.2.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/RU_road_sign_1.4.3.svg/60px-RU_road_sign_1.4.3.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RU_road_sign_1.4.4.svg/60px-RU_road_sign_1.4.4.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_1.4.5.svg/60px-RU_road_sign_1.4.5.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.4.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/RU_road_sign_1.4.6.svg/60px-RU_road_sign_1.4.6.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/RU_road_sign_1.5.svg/60px-RU_road_sign_1.5.svg.png",
+        "name": "Tram crossing",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BY_road_sign_1.6.svg/60px-BY_road_sign_1.6.svg.png",
+        "name": "Intersection of equivalent roads",
+        "description": "Approaching an intersection of roads of equal importance where the requirements of Section 165 of these Rules apply."
+      },
+      {
+        "id": "1.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/RU_road_sign_1.7.svg/60px-RU_road_sign_1.7.svg.png",
+        "name": "Roundabout",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/RU_road_sign_1.8.svg/60px-RU_road_sign_1.8.svg.png",
+        "name": "Traffic light regulation",
+        "description": "Intersection, pedestrian crossing, or road section where traffic is regulated by traffic lights."
+      },
+      {
+        "id": "1.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/RU_road_sign_1.9.svg/60px-RU_road_sign_1.9.svg.png",
+        "name": "Drawbridge",
+        "description": "Drawbridge or ferry crossing."
+      },
+      {
+        "id": "1.10",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RU_road_sign_1.10.svg/60px-RU_road_sign_1.10.svg.png",
+        "name": "Exit to the embankment",
+        "description": "Exit to a location near the shore or to the shore."
+      },
+      {
+        "id": "1.11.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/RU_road_sign_1.11.1.svg/60px-RU_road_sign_1.11.1.svg.png",
+        "name": "Dangerous turn",
+        "description": "Road turn with a small radius or limited visibility: 1.11.1 - to the right, 1.11.2 - to the left."
+      },
+      {
+        "id": "1.11.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/RU_road_sign_1.11.2.svg/60px-RU_road_sign_1.11.2.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.12.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/RU_road_sign_1.12.1.svg/60px-RU_road_sign_1.12.1.svg.png",
+        "name": "Dangerous turns",
+        "description": "Road section with dangerous turns: 1.12.1 - first turn to the right, 1.12.2 - first turn to the left."
+      },
+      {
+        "id": "1.12.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/RU_road_sign_1.12.2.svg/60px-RU_road_sign_1.12.2.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.13",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RU_road_sign_1.13.svg/60px-RU_road_sign_1.13.svg.png",
+        "name": "Steep descent",
+        "description": "Descent or ascent where special requirements of the Traffic Rules regarding the order of movement on steep descents and ascents apply. Signs 1.13, 1.14 may be placed without plate 7.1.1 directly before the start of the descent or ascent if they are repeated."
+      },
+      {
+        "id": "1.14",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RU_road_sign_1.14.svg/60px-RU_road_sign_1.14.svg.png",
+        "name": "Steep ascent",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.15",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/BY_road_sign_1.15.svg/60px-BY_road_sign_1.15.svg.png",
+        "name": "Slippery road",
+        "description": "Road section where the carriageway has high slipperiness."
+      },
+      {
+        "id": "1.16",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/BY_road_sign_1.16.2.svg/60px-BY_road_sign_1.16.2.svg.png",
+        "name": "Uneven road",
+        "description": "Road section where the carriageway has irregularities (wave-like unevenness, bumps, poorly connected bridges, etc.)."
+      },
+      {
+        "id": "1.17",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/BY_road_sign_1.17.svg/60px-BY_road_sign_1.17.svg.png",
+        "name": "Gravel surface",
+        "description": "Road section where there is a possibility of gravel or small stones being thrown from under the wheels of vehicles."
+      },
+      {
+        "id": "1.18.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_1.20.1.svg/60px-RU_road_sign_1.20.1.svg.png",
+        "name": "Narrowing road",
+        "description": "1.18.1 - narrowing on both sides, 1.18.2 - narrowing on the right side, 1.18.3 - narrowing on the left side."
+      },
+      {
+        "id": "1.18.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RU_road_sign_1.20.2.svg/60px-RU_road_sign_1.20.2.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.18.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/RU_road_sign_1.20.3.svg/60px-RU_road_sign_1.20.3.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.19",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/RU_road_sign_1.21.svg/60px-RU_road_sign_1.21.svg.png",
+        "name": "Two-way traffic",
+        "description": "Beginning of a road section (carriageway) with oncoming traffic."
+      },
+      {
+        "id": "1.20",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/RU_road_sign_1.22.svg/60px-RU_road_sign_1.22.svg.png",
+        "name": "Pedestrian crossing",
+        "description": "Pedestrian crossing marked with signs 5.16.1, 5.16.2 and/or markings 1.14.1-1.14.2."
+      },
+      {
+        "id": "1.21",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/RU_road_sign_1.23.svg/60px-RU_road_sign_1.23.svg.png",
+        "name": "Children",
+        "description": "Road section near a children's institution (school, health camp, etc.), where children may appear on the carriageway."
+      },
+      {
+        "id": "1.22",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RU_road_sign_1.24.svg/60px-RU_road_sign_1.24.svg.png",
+        "name": "Intersection with bicycle path",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.23",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RU_road_sign_1.25.svg/60px-RU_road_sign_1.25.svg.png",
+        "name": "Road works",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.24",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/RU_road_sign_1.26.svg/60px-RU_road_sign_1.26.svg.png",
+        "name": "Cattle drive",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.25",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/RU_road_sign_1.27.svg/60px-RU_road_sign_1.27.svg.png",
+        "name": "Wild animals",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.26",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/RU_road_sign_1.28.svg/60px-RU_road_sign_1.28.svg.png",
+        "name": "Falling rocks",
+        "description": "Road section where rockfalls, landslides, or falling stones are possible."
+      },
+      {
+        "id": "1.27",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/RU_road_sign_1.29.svg/60px-RU_road_sign_1.29.svg.png",
+        "name": "Crosswind",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.28",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/RU_road_sign_1.30.svg/60px-RU_road_sign_1.30.svg.png",
+        "name": "Low-flying aircraft",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.29",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BY_road_sign_1.29.svg/60px-BY_road_sign_1.29.svg.png",
+        "name": "Tunnel",
+        "description": "Tunnel without artificial lighting or with limited visibility at the entrance."
+      },
+      {
+        "id": "1.30",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RU_road_sign_1.33.svg/60px-RU_road_sign_1.33.svg.png",
+        "name": "Other hazards",
+        "description": "Road section where hazards not covered by other warning signs are present."
+      },
+      {
+        "id": "1.31.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/RU_road_sign_1.34.1_A.svg/120px-RU_road_sign_1.34.1_A.svg.png",
+        "name": "Direction of turn",
+        "description": "Direction of movement on a curve with a small radius and limited visibility. Direction to bypass a road section under repair."
+      },
+      {
+        "id": "1.31.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/RU_road_sign_1.34.2_A.svg/120px-RU_road_sign_1.34.2_A.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.31.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/RU_road_sign_1.34.3_A.svg/120px-RU_road_sign_1.34.3_A.svg.png",
+        "name": "Direction of movement at a T-intersection or road fork. Direction to bypass a road section under repair.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "1.32",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/BY_road_sign_1.34.svg/60px-BY_road_sign_1.34.svg.png",
+        "name": "Roadblock",
+        "description": "Road section where a roadblock is in effect."
+      },
+      {
+        "id": "1.33",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/BY_road_sign_1.32.svg/60px-BY_road_sign_1.32.svg.png",
+        "name": "Dangerous roadside",
+        "description": "Road section where driving off the road is dangerous."
+      },
+      {
+        "id": "1.34",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/RU_road_sign_1.17.svg/60px-RU_road_sign_1.17.svg.png",
+        "name": "Artificial unevenness",
+        "description": "Road section with artificial unevenness (speed bump) to force speed reduction."
+      },
+      {
+        "id": "1.35",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BY_road_sign_1.29.svg/60px-BY_road_sign_1.29.svg.png",
+        "name": "Accident-prone area",
+        "description": "Warns of approaching a road section where traffic accidents frequently occur. The sign may be supplemented with one of plates 7.27.1-7.27.4 indicating the type of hazard."
+      }
+    ],
+    "Priority Signs": [
+      {
+        "id": "2.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/RU_road_sign_2.1.svg/60px-RU_road_sign_2.1.svg.png",
+        "name": "Main road",
+        "description": "Road that grants priority when passing through unregulated intersections."
+      },
+      {
+        "id": "2.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RU_road_sign_2.2.svg/60px-RU_road_sign_2.2.svg.png",
+        "name": "End of main road",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/RU_road_sign_2.3.1.svg/60px-RU_road_sign_2.3.1.svg.png",
+        "name": "Intersection with secondary road",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/RU_road_sign_2.3.2.svg/60px-RU_road_sign_2.3.2.svg.png",
+        "name": "Junction with secondary road",
+        "description": "Junction from the right - 2.3.2, 2.3.4, 2.3.6, junction from the left - 2.3.3, 2.3.5, 2.3.7."
+      },
+      {
+        "id": "2.3.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/RU_road_sign_2.3.3.svg/60px-RU_road_sign_2.3.3.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/RU_road_sign_2.3.4.svg/60px-RU_road_sign_2.3.4.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RU_road_sign_2.3.5.svg/60px-RU_road_sign_2.3.5.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/RU_road_sign_2.3.6.svg/60px-RU_road_sign_2.3.6.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.3.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/RU_road_sign_2.3.7.svg/60px-RU_road_sign_2.3.7.svg.png",
+        "name": "Multi-track railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "2.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/RU_road_sign_2.4.svg/60px-RU_road_sign_2.4.svg.png",
+        "name": "Give way",
+        "description": "Drivers must yield to vehicles moving on the intersecting road, and in the presence of plate 7.13 - to vehicles moving on the main road."
+      },
+      {
+        "id": "2.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/RU_road_sign_2.5.svg/60px-RU_road_sign_2.5.svg.png",
+        "name": "Stop",
+        "description": "Movement without stopping before the stop line, and if it is absent - before the edge of the intersecting carriageway, is prohibited. The driver must yield to vehicles moving on the intersecting road, and in the presence of plate 7.13 - to vehicles moving on the main road. Sign 2.5 may be placed before a railway crossing or quarantine post. In such cases, the driver must stop before the stop line, and if it is absent - before the sign."
+      },
+      {
+        "id": "2.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/RU_road_sign_2.6.svg/60px-RU_road_sign_2.6.svg.png",
+        "name": "Priority for oncoming traffic",
+        "description": "Entering a narrow section of road is prohibited if it would impede oncoming traffic. The driver must yield to oncoming vehicles located in the narrow section or at the opposite entrance to it."
+      },
+      {
+        "id": "2.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/RU_road_sign_2.7.svg/60px-RU_road_sign_2.7.svg.png",
+        "name": "Priority over oncoming traffic",
+        "description": "Narrow section of road where the driver has priority over oncoming vehicles."
+      }
+    ],
+    "Prohibitory Signs": [
+      {
+        "id": "3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/RU_road_sign_3.1.svg/60px-RU_road_sign_3.1.svg.png",
+        "name": "No entry",
+        "description": "Entry of all vehicles in the indicated direction is prohibited."
+      },
+      {
+        "id": "3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/RU_road_sign_3.2.svg/60px-RU_road_sign_3.2.svg.png",
+        "name": "No movement",
+        "description": "Movement of all vehicles is prohibited."
+      },
+      {
+        "id": "3.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/RU_road_sign_3.3.svg/60px-RU_road_sign_3.3.svg.png",
+        "name": "No motor vehicles",
+        "description": "Movement of motor vehicles is prohibited."
+      },
+      {
+        "id": "3.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/RU_road_sign_3.4.svg/60px-RU_road_sign_3.4.svg.png",
+        "name": "No trucks",
+        "description": "Movement of trucks and vehicle combinations with a maximum permitted weight exceeding 3.5 tons (if the weight is not indicated on the sign) or exceeding the weight indicated on the sign, as well as tractors and self-propelled machines, is prohibited. Sign 3.4 does not prohibit the movement of trucks with a white diagonal stripe on the sides of the body or intended for passenger transport."
+      },
+      {
+        "id": "3.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/RU_road_sign_3.5.svg/60px-RU_road_sign_3.5.svg.png",
+        "name": "No motorcycles",
+        "description": "Movement of motorcycles is prohibited."
+      },
+      {
+        "id": "3.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RU_road_sign_3.6.svg/60px-RU_road_sign_3.6.svg.png",
+        "name": "No tractors",
+        "description": "Movement of tractors and self-propelled machines is prohibited."
+      },
+      {
+        "id": "3.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/RU_road_sign_3.7.svg/60px-RU_road_sign_3.7.svg.png",
+        "name": "No towing",
+        "description": "Movement of trucks and tractors with trailers of any type, as well as towing of motor vehicles, is prohibited."
+      },
+      {
+        "id": "3.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/RU_road_sign_3.8.svg/60px-RU_road_sign_3.8.svg.png",
+        "name": "No horse-drawn vehicles",
+        "description": "Movement of horse-drawn carts (sledges), riding and pack animals, as well as driving livestock is prohibited."
+      },
+      {
+        "id": "3.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/RU_road_sign_3.9.svg/60px-RU_road_sign_3.9.svg.png",
+        "name": "No bicycles",
+        "description": "Movement of bicycles and mopeds is prohibited."
+      },
+      {
+        "id": "3.10",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/RU_road_sign_3.10.svg/60px-RU_road_sign_3.10.svg.png",
+        "name": "No pedestrians",
+        "description": "Movement of pedestrians is prohibited."
+      },
+      {
+        "id": "3.11",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/RU_road_sign_3.11.svg/60px-RU_road_sign_3.11.svg.png",
+        "name": "Weight limit",
+        "description": "Movement of vehicles, including vehicle combinations, whose actual weight exceeds the figure indicated on the sign, is prohibited."
+      },
+      {
+        "id": "3.12",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/SU_road_sign_3.12.svg/60px-SU_road_sign_3.12.svg.png",
+        "name": "Axle weight limit",
+        "description": "Movement of vehicles in which the actual weight on any axle exceeds the figure indicated on the sign is prohibited."
+      },
+      {
+        "id": "3.13",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/SU_road_sign_3.13.svg/60px-SU_road_sign_3.13.svg.png",
+        "name": "Height limit",
+        "description": "Movement of vehicles whose overall height (with or without load) exceeds the figure indicated on the sign is prohibited."
+      },
+      {
+        "id": "3.14",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RU_road_sign_3.14.svg/60px-RU_road_sign_3.14.svg.png",
+        "name": "Width limit",
+        "description": "Movement of vehicles whose overall width (with or without load) exceeds the figure indicated on the sign is prohibited."
+      },
+      {
+        "id": "3.15",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/RU_road_sign_3.15.svg/60px-RU_road_sign_3.15.svg.png",
+        "name": "Length limit",
+        "description": "Movement of vehicles (vehicle combinations) whose overall length (with or without load) exceeds the figure indicated on the sign is prohibited."
+      },
+      {
+        "id": "3.16",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RU_road_sign_3.16.svg/60px-RU_road_sign_3.16.svg.png",
+        "name": "Minimum distance limit",
+        "description": "Movement of vehicles with a distance between them less than indicated on the sign is prohibited."
+      },
+      {
+        "id": "3.17.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Tajikistan_road_sign_3.17.1.svg/60px-Tajikistan_road_sign_3.17.1.svg.png",
+        "name": "Customs",
+        "description": "Prohibits passing the customs checkpoint without stopping."
+      },
+      {
+        "id": "3.17.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Tajikistan_road_sign_3.17.2.svg/60px-Tajikistan_road_sign_3.17.2.svg.png",
+        "name": "Danger",
+        "description": "Prohibits movement of all vehicles without exception due to a traffic accident, fire, or other danger."
+      },
+      {
+        "id": "3.17.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tajikistan_road_sign_3.17.3.svg/60px-Tajikistan_road_sign_3.17.3.svg.png",
+        "name": "Control",
+        "description": "Prohibits passing the control point without stopping."
+      },
+      {
+        "id": "3.18.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/RU_road_sign_3.18.1.svg/60px-RU_road_sign_3.18.1.svg.png",
+        "name": "No right turn",
+        "description": "Turning to the right is prohibited."
+      },
+      {
+        "id": "3.18.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/RU_road_sign_3.18.2.svg/60px-RU_road_sign_3.18.2.svg.png",
+        "name": "No left turn",
+        "description": "Turning to the left is prohibited."
+      },
+      {
+        "id": "3.19",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/RU_road_sign_3.19.svg/60px-RU_road_sign_3.19.svg.png",
+        "name": "No U-turn",
+        "description": "U-turns are prohibited; left turns are allowed."
+      },
+      {
+        "id": "3.20",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RU_road_sign_3.20.svg/60px-RU_road_sign_3.20.svg.png",
+        "name": "No overtaking",
+        "description": "Overtaking of all vehicles except slow-moving vehicles, horse-drawn carts, mopeds, and two-wheeled motorcycles without sidecars is prohibited."
+      },
+      {
+        "id": "3.21",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/RU_road_sign_3.21.svg/60px-RU_road_sign_3.21.svg.png",
+        "name": "End of no overtaking zone",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.22",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RU_road_sign_3.22.svg/60px-RU_road_sign_3.22.svg.png",
+        "name": "No overtaking for trucks",
+        "description": "Overtaking is prohibited for trucks with a maximum permissible weight of over 3.5 tons."
+      },
+      {
+        "id": "3.23",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/RU_road_sign_3.23.svg/60px-RU_road_sign_3.23.svg.png",
+        "name": "End of no overtaking zone for trucks",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.24",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/RU_road_sign_3.24-50.svg/60px-RU_road_sign_3.24-50.svg.png",
+        "name": "Maximum speed limit",
+        "description": "Driving at a speed exceeding the one indicated on the sign (km/h) is prohibited."
+      },
+      {
+        "id": "3.25",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/RU_road_sign_3.25-50.svg/60px-RU_road_sign_3.25-50.svg.png",
+        "name": "End of maximum speed limit zone",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.26",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/RU_road_sign_3.26.svg/60px-RU_road_sign_3.26.svg.png",
+        "name": "No honking",
+        "description": "The use of sound signals is prohibited, except when necessary to prevent a traffic accident."
+      },
+      {
+        "id": "3.27",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/RU_road_sign_3.27.svg/60px-RU_road_sign_3.27.svg.png",
+        "name": "No stopping",
+        "description": "Stopping and parking of vehicles is prohibited."
+      },
+      {
+        "id": "3.28",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/RU_road_sign_3.28.svg/60px-RU_road_sign_3.28.svg.png",
+        "name": "No parking",
+        "description": "Parking of vehicles is prohibited."
+      },
+      {
+        "id": "3.29",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RU_road_sign_3.29.svg/60px-RU_road_sign_3.29.svg.png",
+        "name": "No parking on odd-numbered days",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "3.30",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/RU_road_sign_3.30.svg/60px-RU_road_sign_3.30.svg.png",
+        "name": "No parking on even-numbered days",
+        "description": "When signs 3.29 and 3.30 are used simultaneously on opposite sides of the road, parking is allowed on both sides from 19:00 to 21:00 (relocation time)."
+      },
+      {
+        "id": "3.31",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RU_road_sign_3.31.svg/60px-RU_road_sign_3.31.svg.png",
+        "name": "End of all restrictions",
+        "description": "Indicates the end of a zone where multiple restrictions were simultaneously in effect (e.g., signs 3.16, 3.20, 3.22, 3.24, 3.26–3.30)."
+      },
+      {
+        "id": "3.32",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/RU_road_sign_3.32.svg/60px-RU_road_sign_3.32.svg.png",
+        "name": "No vehicles carrying dangerous goods",
+        "description": "Prohibits the movement of vehicles equipped with 'Dangerous Goods' signs."
+      },
+      {
+        "id": "3.33",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/RU_road_sign_3.33.svg/60px-RU_road_sign_3.33.svg.png",
+        "name": "No vehicles with explosive and flammable materials",
+        "description": "Prohibits the movement of vehicles carrying explosive or flammable materials unless in limited quantities and in compliance with special transport regulations."
+      },
+      {
+        "id": "3.34",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/RU_road_sign_3.34.svg/60px-RU_road_sign_3.34.svg.png",
+        "name": "No buses",
+        "description": "Prohibits the movement of buses and minibuses engaged in passenger transport."
+      },
+      {
+        "id": "3.35",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/TJ_road_sign_3.35.svg/60px-TJ_road_sign_3.35.svg.png",
+        "name": "End of no bus zone",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      }
+    ],
+    "Аломатҳои фармондеҳ": [
+      {
+        "id": "4.1.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/RU_road_sign_4.1.1.svg/60px-RU_road_sign_4.1.1.svg.png",
+        "name": "Straight Ahead Only",
+        "description": "Signs 4.1.1–4.1.6 permit movement only in the direction indicated by the arrows. Signs allowing a left turn also permit passing on the left side of the road. These signs can be combined as a group of arrows corresponding to permitted directions at a specific intersection."
+      },
+      {
+        "id": "4.1.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/RU_road_sign_4.1.2.svg/60px-RU_road_sign_4.1.2.svg.png",
+        "name": "Turn Right Only",
+        "description": "Signs 4.1.1–4.1.6 permit movement only in the direction indicated by the arrows. Signs allowing a left turn also permit passing on the left side of the road. These signs can be combined as a group of arrows corresponding to permitted directions at a specific intersection."
+      },
+      {
+        "id": "4.1.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RU_road_sign_4.1.3.svg/60px-RU_road_sign_4.1.3.svg.png",
+        "name": "Turn Left Only",
+        "description": "Signs 4.1.1–4.1.6 permit movement only in the direction indicated by the arrows. Signs allowing a left turn also permit passing on the left side of the road. These signs can be combined as a group of arrows corresponding to permitted directions at a specific intersection."
+      },
+      {
+        "id": "4.1.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/RU_road_sign_4.1.4.svg/60px-RU_road_sign_4.1.4.svg.png",
+        "name": "Straight or Right Turn Only",
+        "description": "Signs 4.1.1–4.1.6 permit movement only in the direction indicated by the arrows. Signs allowing a left turn also permit passing on the left side of the road. These signs can be combined as a group of arrows corresponding to permitted directions at a specific intersection."
+      },
+      {
+        "id": "4.1.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RU_road_sign_4.1.5.svg/60px-RU_road_sign_4.1.5.svg.png",
+        "name": "Straight or Left Turn Only",
+        "description": "Signs 4.1.1–4.1.6 permit movement only in the direction indicated by the arrows. Signs allowing a left turn also permit passing on the left side of the road. These signs can be combined as a group of arrows corresponding to permitted directions at a specific intersection."
+      },
+      {
+        "id": "4.1.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/RU_road_sign_4.1.6.svg/60px-RU_road_sign_4.1.6.svg.png",
+        "name": "Right or Left Turn Only",
+        "description": "Signs 4.1.1–4.1.6 permit movement only in the direction indicated by the arrows. Signs allowing a left turn also permit passing on the left side of the road. These signs can be combined as a group of arrows corresponding to permitted directions at a specific intersection."
+      },
+      {
+        "id": "4.2.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/RU_road_sign_4.2.1.svg/60px-RU_road_sign_4.2.1.svg.png",
+        "name": "Pass the Obstacle on the Right",
+        "description": "Passing the obstacle is only allowed on the side indicated by the arrow."
+      },
+      {
+        "id": "4.2.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/RU_road_sign_4.2.2.svg/60px-RU_road_sign_4.2.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Sign used to indicate a multi-track railway crossing."
+      },
+      {
+        "id": "4.2.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RU_road_sign_4.2.3.svg/60px-RU_road_sign_4.2.3.svg.png",
+        "name": "Pass the Obstacle on Either Side",
+        "description": "Passing on either side of the obstacle is allowed."
+      },
+      {
+        "id": "4.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/RU_road_sign_4.3.svg/60px-RU_road_sign_4.3.svg.png",
+        "name": "Roundabout Movement",
+        "description": "Movement is permitted in the direction indicated by the arrows (around the circle)."
+      },
+      {
+        "id": "4.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/SU_road_sign_4.4.svg/60px-SU_road_sign_4.4.svg.png",
+        "name": "Movement of Light Vehicles Only",
+        "description": "Only light vehicles, buses, route transport, trucks with a maximum allowed weight not exceeding 3.5 tons, and motorcycles are allowed."
+      },
+      {
+        "id": "4.5.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/RU_road_sign_4.4.1.svg/60px-RU_road_sign_4.4.1.svg.png",
+        "name": "Bicycle Path",
+        "description": "Only bicycles are allowed. If there’s no pedestrian path available, pedestrians may also use it, provided they do not obstruct cyclists. A pedestrian symbol may be additionally shown."
+      },
+      {
+        "id": "4.5.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/RU_road_sign_4.4.2.svg/60px-RU_road_sign_4.4.2.svg.png",
+        "name": "End of Bicycle Path",
+        "description": "Indicates the end of sign 4.5.1. A pedestrian symbol may also be shown."
+      },
+      {
+        "id": "4.6.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/RU_road_sign_4.5.1.svg/60px-RU_road_sign_4.5.1.svg.png",
+        "name": "Pedestrian Path",
+        "description": "Only pedestrian traffic is allowed. If there's no separate bicycle path, bicycles are permitted, provided cyclists do not interfere with pedestrians. A bicycle symbol may be added."
+      },
+      {
+        "id": "4.6.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/BY_road_sign_4.6.2.svg/60px-BY_road_sign_4.6.2.svg.png",
+        "name": "End of Pedestrian Path",
+        "description": "End of sign 4.6.1. A bicycle symbol may also be added."
+      },
+      {
+        "id": "4.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/RU_road_sign_4.6-50.svg/60px-RU_road_sign_4.6-50.svg.png",
+        "name": "Minimum Speed Limit",
+        "description": "Movement is allowed only at the indicated speed (km/h) or higher, but not exceeding the limits specified in points 106 and 107 of the Traffic Rules."
+      },
+      {
+        "id": "4.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/RU_road_sign_4.7-50.svg/60px-RU_road_sign_4.7-50.svg.png",
+        "name": "End of Minimum Speed Zone",
+        "description": "End of the area where sign 4.7 applies."
+      },
+      {
+        "id": "4.9.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/RU_road_sign_4.8.1.svg/60px-RU_road_sign_4.8.1.svg.png",
+        "name": "Direction for Vehicles with Dangerous Goods – Left Only",
+        "description": "Movement of vehicles marked with a 'Dangerous Goods' sign is permitted only to the left."
+      },
+      {
+        "id": "4.9.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/RU_road_sign_4.8.2.svg/60px-RU_road_sign_4.8.2.svg.png",
+        "name": "Direction for Dangerous Goods Vehicles – Straight Only",
+        "description": "Movement of vehicles marked with a 'Dangerous Goods' sign is permitted only straight ahead."
+      },
+      {
+        "id": "4.9.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/RU_road_sign_4.8.3.svg/60px-RU_road_sign_4.8.3.svg.png",
+        "name": "Direction for Dangerous Goods Vehicles – Right Only",
+        "description": "Movement of vehicles marked with a 'Dangerous Goods' sign is permitted only to the right."
+      }
+    ],
+    "Information Signs": [
+      {
+        "id": "5.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/RU_road_sign_5.1.svg/60px-RU_road_sign_5.1.svg.png",
+        "name": "Highway",
+        "description": "Signs 5.1 and 5.2 indicate the beginning and end of a road where special requirements of the Rules regarding traffic on highways apply."
+      },
+      {
+        "id": "5.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/RU_road_sign_5.2.svg/60px-RU_road_sign_5.2.svg.png",
+        "name": "End of Highway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/RU_road_sign_5.3.svg/60px-RU_road_sign_5.3.svg.png",
+        "name": "Road for Motor Vehicles",
+        "description": "A road intended only for the movement of cars, buses, and motorcycles."
+      },
+      {
+        "id": "5.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/RU_road_sign_5.4.svg/60px-RU_road_sign_5.4.svg.png",
+        "name": "End of Road for Motor Vehicles",
+        "description": "Cancels the effect of sign 5.3."
+      },
+      {
+        "id": "5.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/RU_road_sign_5.5.svg/60px-RU_road_sign_5.5.svg.png",
+        "name": "One-Way Road",
+        "description": "A road or carriageway where traffic moves in one direction across its entire width."
+      },
+      {
+        "id": "5.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/RU_road_sign_5.6.svg/60px-RU_road_sign_5.6.svg.png",
+        "name": "End of One-Way Road",
+        "description": "Cancels the effect of sign 5.5."
+      },
+      {
+        "id": "5.7.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/RU_road_sign_5.7.1.svg/120px-RU_road_sign_5.7.1.svg.png",
+        "name": "Exit to a One-Way Road",
+        "description": "Exit to a road or carriageway where traffic is allowed only in the direction indicated on the sign."
+      },
+      {
+        "id": "5.7.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RU_road_sign_5.7.2.svg/120px-RU_road_sign_5.7.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.8.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/RU_road_sign_5.15.1.svg/120px-RU_road_sign_5.15.1.svg.png",
+        "name": "Direction of Movement by Lanes",
+        "description": "The number of lanes and permitted directions of movement on each of them."
+      },
+      {
+        "id": "5.8.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/RU_road_sign_5.15.2_A.svg/60px-RU_road_sign_5.15.2_A.svg.png",
+        "name": "Direction of Movement by Lane",
+        "description": "Permitted directions of movement by lane.\nSigns 5.8.1 and 5.8.2 may include information about movement restrictions at intersections (images of prohibitory or mandatory signs). Signs 5.8.1 and 5.8.2, which allow left turns from the far-left lane, also permit U-turns from this lane. The shape of the arrows may vary depending on the specific intersection layout. The effect of signs 5.8.1 and 5.8.2 placed before an intersection applies to the entire intersection unless other signs (5.8.1, 5.8.2, or 4.1.1–4.1.6) at the intersection indicate otherwise. Signs 5.8.1 and 5.8.2 do not apply to route vehicles."
+      },
+      {
+        "id": "5.8.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/RU_road_sign_5.15.3_A.svg/60px-RU_road_sign_5.15.3_A.svg.png",
+        "name": "Start of Lane",
+        "description": "The beginning of an additional lane on an incline or acceleration lane."
+      },
+      {
+        "id": "5.8.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/RU_road_sign_5.15.4_A.svg/60px-RU_road_sign_5.15.4_A.svg.png",
+        "name": "Start of a Central Lane on a Three-Lane Road for Traffic in the Specified Direction or Start of a Left-Turn or U-Turn Lane",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.8.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RU_road_sign_5.15.5.svg/60px-RU_road_sign_5.15.5.svg.png",
+        "name": "End of Lane",
+        "description": "The end of an additional lane on an incline or acceleration lane."
+      },
+      {
+        "id": "5.8.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/RU_road_sign_5.15.6.svg/60px-RU_road_sign_5.15.6.svg.png",
+        "name": "End of Lane for Traffic in the Specified Direction",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.8.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/RU_road_sign_5.15.7_B.svg/120px-RU_road_sign_5.15.7_B.svg.png",
+        "name": "Direction of Movement by Lanes",
+        "description": "If sign 5.8.7 includes an image of a prohibitory or mandatory sign for a certain type of vehicle, the specified restrictions, conditions, or traffic rules apply to the relevant lane.\nParts of signs 5.8.7 and 5.8.8 indicating the number of lanes for oncoming traffic may be executed as separate signs placed close to each other.\nSign 5.8.7 can be used on roads with four or more lanes, corresponding to the number of arrows."
+      },
+      {
+        "id": "5.8.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/RU_road_sign_5.15.7_A.svg/120px-RU_road_sign_5.15.7_A.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.8.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/RU_road_sign_5.15.8.svg/120px-RU_road_sign_5.15.8.svg.png",
+        "name": "Number of Lanes",
+        "description": "Indicates the number of traffic lanes and the order of movement by lanes. The driver must comply with the requirements of the signs depicted on the arrows."
+      },
+      {
+        "id": "5.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/RU_road_sign_5.14.1.svg/60px-RU_road_sign_5.14.1.svg.png",
+        "name": "Lane for Route Vehicles",
+        "description": "A lane intended only for the movement of public transport vehicles.\nThe sign applies to the lane above which it is placed. A sign placed on the right side of the road applies to the rightmost lane."
+      },
+      {
+        "id": "5.10.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RU_road_sign_5.11.1.svg/60px-RU_road_sign_5.11.1.svg.png",
+        "name": "Road with a Lane for Route Vehicles",
+        "description": "A road where public transport moves in a specially designated lane against the general flow of vehicles."
+      },
+      {
+        "id": "5.10.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RU_road_sign_5.13.1.svg/60px-RU_road_sign_5.13.1.svg.png",
+        "name": "Exit to a Road with a Lane for Route Vehicles",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.10.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/RU_road_sign_5.13.2.svg/60px-RU_road_sign_5.13.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.10.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/RU_road_sign_5.12.1.svg/60px-RU_road_sign_5.12.1.svg.png",
+        "name": "End of Road with a Lane for Route Vehicles",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.11.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RU_road_sign_6.3.1.svg/60px-RU_road_sign_6.3.1.svg.png",
+        "name": "Place for U-Turn",
+        "description": "Left turns are prohibited."
+      },
+      {
+        "id": "5.11.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/RU_road_sign_6.3.2.svg/60px-RU_road_sign_6.3.2.svg.png",
+        "name": "U-Turn Zone",
+        "description": "The length of the U-turn zone. Left turns are prohibited."
+      },
+      {
+        "id": "5.12",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_5.16.svg/60px-RU_road_sign_5.16.svg.png",
+        "name": "Bus and (or) Trolleybus Stop",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.13",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RU_road_sign_5.17.svg/60px-RU_road_sign_5.17.svg.png",
+        "name": "Tram Stop",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.14",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/RU_road_sign_5.18.svg/60px-RU_road_sign_5.18.svg.png",
+        "name": "Taxi Stand",
+        "description": "The sign indicates an area on the roadway or a special area designated only for taxis."
+      },
+      {
+        "id": "5.15",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/RU_road_sign_6.4_A.svg/60px-RU_road_sign_6.4_A.svg.png",
+        "name": "Parking (Parking Area)",
+        "description": "The sign indicates a special area, a zone on the roadway, or a pedestrian path designated for vehicle parking. To clarify the direction of movement, distance to the special area, and parking conditions, additional plates may be used with sign 5.15."
+      },
+      {
+        "id": "5.16.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/RU_road_sign_5.19.2.svg/60px-RU_road_sign_5.19.2.svg.png",
+        "name": "Pedestrian Crossing",
+        "description": "The signs indicate an area for pedestrians to cross the roadway. If there is no marking 1.14.1 or 1.14.2 at the crossing, sign 5.16.1 is placed on the right side of the road closest to approaching vehicles."
+      },
+      {
+        "id": "5.16.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/RU_road_sign_5.19.1.svg/60px-RU_road_sign_5.19.1.svg.png",
+        "name": "The signs indicate an area for pedestrians to cross the roadway. If there is no marking 1.14.1 or 1.14.2 at the crossing, sign 5.16.2 is placed on the left side of the road farthest from approaching vehicles.",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.17.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/RU_road_sign_6.6.svg/60px-RU_road_sign_6.6.svg.png",
+        "name": "Underground Pedestrian Crossing",
+        "description": "Indicates a place where pedestrians can safely cross the road using an underground passage."
+      },
+      {
+        "id": "5.17.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/SU_road_sign_5.17.1.svg/60px-SU_road_sign_5.17.1.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.17.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/SU_road_sign_5.17.3.svg/60px-SU_road_sign_5.17.3.svg.png",
+        "name": "Overground Pedestrian Crossing",
+        "description": "Indicates a place where pedestrians can safely cross the road using an overground passage."
+      },
+      {
+        "id": "5.17.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RU_road_sign_6.7.svg/60px-RU_road_sign_6.7.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.18",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/RU_road_sign_6.2-50.svg/60px-RU_road_sign_6.2-50.svg.png",
+        "name": "Recommended Speed",
+        "description": "The speed at which it is recommended to drive on a given section of the road. The sign's coverage extends to the nearest intersection and, when used in conjunction with a warning sign, its effect is determined by the length of the hazardous section."
+      },
+      {
+        "id": "5.19.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/RU_road_sign_6.8.1.svg/60px-RU_road_sign_6.8.1.svg.png",
+        "name": "Dead End",
+        "description": "Indicates a road with no through passage, but does not prohibit movement towards the dead end."
+      },
+      {
+        "id": "5.19.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/RU_road_sign_6.8.2.svg/60px-RU_road_sign_6.8.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.19.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/RU_road_sign_6.8.3.svg/60px-RU_road_sign_6.8.3.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.20.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/TJ_road_sign_5.20.1_A.svg/120px-TJ_road_sign_5.20.1_A.svg.png",
+        "name": "Preliminary Direction Indicator",
+        "description": "Indicates the direction of movement towards populated areas or other structures. The signs may include highway symbols, airports, images of signs 5.29.1, 5.29.2, as well as other symbols and signs informing about traffic conditions. The lower part of sign 5.20.1 indicates the distance from the placement location to the intersection or the start of the deceleration lane.\nSign 5.20.1 is also used to indicate detour routes around sections of the road where one of the prohibitory signs 3.4, 3.6, 3.11, 3.12, 3.13–3.15 is installed. In this case, the sign must depict the detour route around the obstacle and the relevant prohibitory sign."
+      },
+      {
+        "id": "5.20.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/TJ_road_sign_5.20.2_A.svg/120px-TJ_road_sign_5.20.2_A.svg.png",
+        "name": "Preliminary Direction Indicator",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.20.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/SU_road_sign_5.20.3.svg/120px-SU_road_sign_5.20.3.svg.png",
+        "name": "Movement Scheme",
+        "description": "The route to follow when certain maneuvers or permitted directions of movement are prohibited at a complex intersection."
+      },
+      {
+        "id": "5.21.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TJ_road_sign_5.21.1_A.svg/120px-TJ_road_sign_5.21.1_A.svg.png",
+        "name": "Direction Indicator",
+        "description": "Indicates the direction(s) of movement towards populated areas or other structures. The signs may include the distance to the mentioned structures (km), highway symbols, airports, images of signs 5.29.1, 5.29.2, as well as other symbols and signs informing about traffic conditions."
+      },
+      {
+        "id": "5.21.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/TJ_road_sign_5.21.2.svg/120px-TJ_road_sign_5.21.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.22.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/TJ_road_sign_5.22.1.svg/120px-TJ_road_sign_5.22.1.svg.png",
+        "name": "Start of Populated Area",
+        "description": "The name and beginning of a populated area where special requirements of the Rules regarding traffic in populated areas apply."
+      },
+      {
+        "id": "5.22.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/RU_road_sign_5.23.2.svg/120px-RU_road_sign_5.23.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.23.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TJ_road_sign_5.23.1.svg/120px-TJ_road_sign_5.23.1.svg.png",
+        "name": "End of Populated Area",
+        "description": "The place on the road from which the special requirements of the Rules regarding traffic in populated areas no longer apply."
+      },
+      {
+        "id": "5.23.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/RU_road_sign_5.24.2.svg/120px-RU_road_sign_5.24.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.24",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/TJ_road_sign_5.24.svg/120px-TJ_road_sign_5.24.svg.png",
+        "name": "Start of Populated Area Boundary",
+        "description": "The name and beginning of a populated area where the requirements of these Rules regarding traffic in populated areas do not apply."
+      },
+      {
+        "id": "5.25",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/TJ_road_sign_5.25.svg/120px-TJ_road_sign_5.25.svg.png",
+        "name": "End of Populated Area Boundary",
+        "description": "The end of the populated area boundary indicated by sign 5.24."
+      },
+      {
+        "id": "5.26.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/RU_road_sign_6.11_A.svg/120px-RU_road_sign_6.11_A.svg.png",
+        "name": "Name of Structure",
+        "description": "The name of another structure not belonging to a populated area (river, lake, pass, streets, recreational areas, etc.)."
+      },
+      {
+        "id": "5.27",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/TJ_road_sign_5.27.svg/120px-TJ_road_sign_5.27.svg.png",
+        "name": "Distance Indicator",
+        "description": "The distance (km) to populated areas located along the route."
+      },
+      {
+        "id": "5.28",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/RU_road_sign_6.13_B.svg/60px-RU_road_sign_6.13_B.svg.png",
+        "name": "Kilometer Sign",
+        "description": "The distance (km) to the start or end of the road."
+      },
+      {
+        "id": "5.29.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/M9-RUS.svg/120px-M9-RUS.svg.png",
+        "name": "Route Number",
+        "description": "The number assigned to the road (route)."
+      },
+      {
+        "id": "5.29.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/RU_road_sign_6.14.2_C.svg/120px-RU_road_sign_6.14.2_C.svg.png",
+        "name": "Route Number",
+        "description": "The number and direction of the road (route)."
+      },
+      {
+        "id": "5.30.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_6.15.1.svg/120px-RU_road_sign_6.15.1.svg.png",
+        "name": "Recommended Direction for Trucks",
+        "description": "The recommended direction of movement for trucks, tractors, and self-propelled vehicles if their movement in one of the directions at an intersection is prohibited."
+      },
+      {
+        "id": "5.30.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/RU_road_sign_6.15.2.svg/120px-RU_road_sign_6.15.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.30.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/RU_road_sign_6.15.3.svg/120px-RU_road_sign_6.15.3.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.31",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/TJ_road_sign_5.31.svg/120px-TJ_road_sign_5.31.svg.png",
+        "name": "Detour Scheme",
+        "description": "The route to bypass a section of the road temporarily closed to traffic."
+      },
+      {
+        "id": "5.32.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/TJ_road_sign_5.32.1.svg/120px-TJ_road_sign_5.32.1.svg.png",
+        "name": "Detour Direction",
+        "description": "The direction to bypass a section of the road temporarily closed to traffic."
+      },
+      {
+        "id": "5.32.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/TJ_road_sign_5.32.2.svg/120px-TJ_road_sign_5.32.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.32.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/TJ_road_sign_5.32.3.svg/120px-TJ_road_sign_5.32.3.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.33",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RU_road_sign_6.16.svg/120px-RU_road_sign_6.16.svg.png",
+        "name": "Stop Line",
+        "description": "The place where vehicles must stop at a prohibiting signal from a traffic controller or traffic light."
+      },
+      {
+        "id": "5.34.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RU_road_sign_6.19.1.svg/120px-RU_road_sign_6.19.1.svg.png",
+        "name": "Preliminary Indicator for Changing to Another Carriageway",
+        "description": "The direction to bypass a section of the carriageway closed to traffic on a road with a dividing strip or a right-turn lane."
+      },
+      {
+        "id": "5.34.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/RU_road_sign_6.19.2.svg/120px-RU_road_sign_6.19.2.svg.png",
+        "name": "Multi-Track Railway",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.35",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/RU_road_sign_5.8.svg/60px-RU_road_sign_5.8.svg.png",
+        "name": "Reversible Movement",
+        "description": "The beginning of a section of road where the direction of traffic in one or more lanes can change to the opposite direction."
+      },
+      {
+        "id": "5.36",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/RU_road_sign_5.9.svg/60px-RU_road_sign_5.9.svg.png",
+        "name": "End of Reversible Movement",
+        "description": "The end of a section of road indicated by sign 5.35."
+      },
+      {
+        "id": "5.37",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/RU_road_sign_5.10.svg/60px-RU_road_sign_5.10.svg.png",
+        "name": "Exit to a Road with Reversible Movement",
+        "description": "Exit to a section of road where the direction of traffic in one or more lanes can change to the opposite direction."
+      },
+      {
+        "id": "5.38",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RU_road_sign_5.21.svg/60px-RU_road_sign_5.21.svg.png",
+        "name": "Residential Zone",
+        "description": "The beginning of an area where special requirements of these Rules regarding traffic in residential zones apply."
+      },
+      {
+        "id": "5.39",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/RU_road_sign_5.22.svg/60px-RU_road_sign_5.22.svg.png",
+        "name": "End of Residential Zone",
+        "description": "The end of an area where special requirements of these Rules regarding traffic in residential zones apply."
+      },
+      {
+        "id": "5.40",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/RU_road_sign_5.20.svg/60px-RU_road_sign_5.20.svg.png",
+        "name": "Artificial Roughness",
+        "description": "Indicates the boundary of artificial roughness. The sign is placed at the nearest artificial roughness relative to approaching vehicles."
+      },
+      {
+        "id": "5.41",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RU_road_sign_5.31.svg/60px-RU_road_sign_5.31.svg.png",
+        "name": "Zone with Restricted Parking",
+        "description": "A place where a zone (section of road) with restricted parking begins."
+      },
+      {
+        "id": "5.42",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/RU_road_sign_5.32.svg/60px-RU_road_sign_5.32.svg.png",
+        "name": "End of Zone with Restricted Parking",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.43",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/RU_road_sign_5.29.svg/60px-RU_road_sign_5.29.svg.png",
+        "name": "Regulated Parking Zone",
+        "description": "A place where a zone (section of road) begins where parking is permitted and regulated by plates or road markings."
+      },
+      {
+        "id": "5.44",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/RU_road_sign_5.30.svg/60px-RU_road_sign_5.30.svg.png",
+        "name": "End of Regulated Parking Zone",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.45",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RU_road_sign_5.31.svg/60px-RU_road_sign_5.31.svg.png",
+        "name": "Zone with Limited Maximum Speed",
+        "description": "A place where a zone (section of road) begins where the maximum speed is limited."
+      },
+      {
+        "id": "5.46",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/RU_road_sign_5.32.svg/60px-RU_road_sign_5.32.svg.png",
+        "name": "End of Zone with Limited Maximum Speed",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "5.47",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RU_road_sign_5.33.svg/60px-RU_road_sign_5.33.svg.png",
+        "name": "Pedestrian Zone",
+        "description": "A place where a zone (section of road) begins where only pedestrian traffic is permitted."
+      },
+      {
+        "id": "5.48",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/RU_road_sign_5.34.svg/60px-RU_road_sign_5.34.svg.png",
+        "name": "End of Pedestrian Zone",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      }
+    ],
+    "Service Signs": [
+      {
+        "id": "6.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/RU_road_sign_7.1.svg/60px-RU_road_sign_7.1.svg.png",
+        "name": "First Aid Point",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/RU_road_sign_7.2.svg/60px-RU_road_sign_7.2.svg.png",
+        "name": "Hospital",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/RU_road_sign_7.3.svg/60px-RU_road_sign_7.3.svg.png",
+        "name": "Fuel Supply Point",
+        "description": "This sign indicates a fuel supply point for gasoline and diesel."
+      },
+      {
+        "id": "6.3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/BY_road_sign_6.3.2.svg/60px-BY_road_sign_6.3.2.svg.png",
+        "name": "Gas Fuel Supply Point",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.3.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BY_road_sign_6.3.3.svg/60px-BY_road_sign_6.3.3.svg.png",
+        "name": "Fuel Supply Point (Gasoline, Diesel, Gas)",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RU_road_sign_7.4.svg/60px-RU_road_sign_7.4.svg.png",
+        "name": "Automobile Technical Service",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RU_road_sign_7.5.svg/60px-RU_road_sign_7.5.svg.png",
+        "name": "Car Wash",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/RU_road_sign_7.6.svg/60px-RU_road_sign_7.6.svg.png",
+        "name": "Phone",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/RU_road_sign_7.7.svg/60px-RU_road_sign_7.7.svg.png",
+        "name": "Restaurant",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/RU_road_sign_7.8.svg/60px-RU_road_sign_7.8.svg.png",
+        "name": "Drinking Water",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.9",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/RU_road_sign_7.9.svg/60px-RU_road_sign_7.9.svg.png",
+        "name": "Hotel or Motel",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.10",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/RU_road_sign_7.10.svg/60px-RU_road_sign_7.10.svg.png",
+        "name": "Camping",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.11",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RU_road_sign_7.11.svg/60px-RU_road_sign_7.11.svg.png",
+        "name": "Rest Area",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.12",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/SU_road_sign_6.12.svg/60px-SU_road_sign_6.12.svg.png",
+        "name": "Traffic Police Post",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.13",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Tajikistan_road_sign_6.13.svg/60px-Tajikistan_road_sign_6.13.svg.png",
+        "name": "Police",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.14",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tajikistan_road_sign_6.14.svg/60px-Tajikistan_road_sign_6.14.svg.png",
+        "name": "International Vehicle Transit Control Point",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.15",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/RU_road_sign_7.17.svg/60px-RU_road_sign_7.17.svg.png",
+        "name": "Swimming Pool or Beach",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.16",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/RU_road_sign_7.18.svg/60px-RU_road_sign_7.18.svg.png",
+        "name": "Toilet",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "6.17",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/RU_road_sign_7.20.svg/60px-RU_road_sign_7.20.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      }
+    ],
+    "AdditionalSigns": [
+      {
+        "id": "7.1.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/RU_road_sign_8.1.1.svg/60px-RU_road_sign_8.1.1.svg.png",
+        "name": "Distance to Facility",
+        "description": "Indicates the distance from the sign to the beginning of a dangerous section or to a place where a relevant restriction applies, or to a specific facility ahead."
+      },
+      {
+        "id": "7.1.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/RU_road_sign_8.1.2.svg/60px-RU_road_sign_8.1.2.svg.png",
+        "name": "Distance from Sign 2.4 to Intersection, if Sign 2.5 is placed immediately before the intersection",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "7.1.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/RU_road_sign_8.1.3.svg/60px-RU_road_sign_8.1.3.svg.png",
+        "name": "Distance to Facility Further Along the Road",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, expedita"
+      },
+      {
+        "id": "7.1.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RU_road_sign_8.1.4.svg/60px-RU_road_sign_8.1.4.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.2.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/RU_road_sign_8.2.1.svg/60px-RU_road_sign_8.2.1.svg.png",
+        "name": "Area of Effect",
+        "description": "Indicates the length of the hazardous section of the road, marked by warning signs, or the area where prohibitory or regulatory signs apply."
+      },
+      {
+        "id": "7.2.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/RU_road_sign_8.2.2.svg/40px-RU_road_sign_8.2.2.svg.png",
+        "name": "Area of Effect of Prohibitory Signs 3.27-3.30, unless it extends to the nearest intersection, also shows the width of pedestrian crossing areas marked by signs 5.16.1 and 5.16.2.",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.2.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/RU_road_sign_8.2.3.svg/40px-RU_road_sign_8.2.3.svg.png",
+        "name": "End of Effect of Signs 3.27-3.30",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.2.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/RU_road_sign_8.2.4.svg/40px-RU_road_sign_8.2.4.svg.png",
+        "name": "Indicates to Drivers in the Area of Effect of Signs 3.27-3.30",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.2.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/RU_road_sign_8.2.5.svg/60px-RU_road_sign_8.2.5.svg.png",
+        "name": "Direction and Area of Effect of Signs 3.27-3.30 during Prohibition of Stopping or Parking in the Area",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.2.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/RU_road_sign_8.2.6.svg/60px-RU_road_sign_8.2.6.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.3.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/RU_road_sign_8.3.1.svg/60px-RU_road_sign_8.3.1.svg.png",
+        "name": "Directions of Effect",
+        "description": "Indicates the directions of signs placed before the intersection or the direction of movement to the facilities directly located in front of the road."
+      },
+      {
+        "id": "7.3.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/RU_road_sign_8.3.2.svg/60px-RU_road_sign_8.3.2.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.3.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RU_road_sign_8.3.3.svg/60px-RU_road_sign_8.3.3.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.4.1",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RU_road_sign_8.4.1.svg/60px-RU_road_sign_8.4.1.svg.png",
+        "name": "Type of Vehicle",
+        "description": "Indicates the type of vehicle to which the sign applies. For example, sign 7.4.1 applies to heavy vehicles, including those with trailers over 3.5 tons, while 7.4.3 applies to light vehicles, and 7.4.8 applies to vehicles carrying hazardous cargo."
+      },
+      {
+        "id": "7.4.2",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SU_road_sign_7.4.2.svg/60px-SU_road_sign_7.4.2.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.4.3",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/RU_road_sign_8.4.3.2.svg/60px-RU_road_sign_8.4.3.2.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.4.4",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/RU_road_sign_8.4.4.svg/60px-RU_road_sign_8.4.4.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.4.5",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/RU_road_sign_8.4.5.svg/60px-RU_road_sign_8.4.5.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.4.6",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/RU_road_sign_8.4.6.svg/60px-RU_road_sign_8.4.6.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.4.7",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/RU_road_sign_8.4.7.svg/60px-RU_road_sign_8.4.7.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      },
+      {
+        "id": "7.4.8",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/RU_road_sign_8.4.8.svg/60px-RU_road_sign_8.4.8.svg.png",
+        "name": "Fire Extinguisher",
+        "description": "Indicates the location of a fire extinguisher."
+      }
+    ]
+  }
+}
