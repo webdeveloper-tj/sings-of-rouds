@@ -1,146 +1,162 @@
+import { useTranslation } from "react-i18next";
+
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="mt-10">
       <div className="flex flex-col gap-y-6">
+        {/* Development Section */}
         <div className="px-2 md:w-[750px] xl:w-[1160px] md:mx-auto">
           <h1 className="text-3xl border-l-2 border-orange-600 pl-2">
-            About Development
-          </h1>
-          <div className="flex flex-col gap-y-4 my-4 pl-2">
-            <span className=" border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
-              Development:{" "}
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                Muhammadismoil
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                {" "}
-                Mirzorahim
-              </span>
-            </span>
-            <span className=" border-l-2 border-orange-600 pl-2">
-              Course:{" "}
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                3
-              </span>
-            </span>
-            <span className=" border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
-              Group:{" "}
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                Automation
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                of
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                information
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                processing
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600 ">
-                systems.
-              </span>
-            </span>
-          </div>
-        </div>
-        <div className="px-2 md:w-[750px] xl:w-[1160px] md:mx-auto">
-          <h1 className="text-3xl border-l-2 border-orange-600 pl-2">
-            About Supervisor
-          </h1>
-          <div className="flex flex-col gap-y-4 my-4 pl-2">
-            <span className=" border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
-              Supervisor:{" "}
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                Qosimov
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                {" "}
-                Abdunabi
-              </span>
-            </span>
-            <span className=" border-l-2 border-orange-600 pl-2">
-              Title of the disease:{" "}
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                Doctor
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                PHD
-              </span>
-            </span>
-            <span className=" border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
-              Profession:{" "}
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                Automation
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                of
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                information
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                processing
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600 ">
-                systems.
-              </span>
-            </span>
-          </div>
-        </div>
-        <div className="px-2 md:w-[750px] xl:w-[1160px] md:mx-auto">
-          <h1 className="text-3xl border-l-2 border-orange-600 pl-2">
-            About this App
+            {t("about.development.title")}
           </h1>
           <div className="flex flex-col gap-y-4 my-4 pl-2">
             <span className="border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
-              Language:{" "}
+              {t("about.development.developers")}:{" "}
+              {t("about.development.names", { returnObjects: true }).map(
+                (name: string) => (
+                  <span
+                    key={name}
+                    className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600"
+                  >
+                    {name}
+                  </span>
+                )
+              )}
+            </span>
+            <span className="border-l-2 border-orange-600 pl-2">
+              {t("about.development.course")}:{" "}
               <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                JavaScript,
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                TypeScript
+                {t("about.development.courseNumber")}
               </span>
             </span>
-            <span className=" border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
-              Framework:
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                React
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                +
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                TypeScript
-              </span>
+            <span className="border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
+              {t("about.development.group")}:{" "}
+              {t("about.development.groupName", { returnObjects: true }).map(
+                (word: string) => (
+                  <span
+                    key={word}
+                    className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600"
+                  >
+                    {word}
+                  </span>
+                )
+              )}
             </span>
-            <span className=" border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
-              Styles:{" "}
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                Tailwind
-              </span>
-              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                CSS
-              </span>
+          </div>
+        </div>
+
+        {/* Supervisor Section */}
+        <div className="px-2 md:w-[750px] xl:w-[1160px] md:mx-auto">
+          <h1 className="text-3xl border-l-2 border-orange-600 pl-2">
+            {t("about.supervisor.title")}
+          </h1>
+          <div className="flex flex-col gap-y-4 my-4 pl-2">
+            <span className="border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
+              {t("about.supervisor.supervisor")}:{" "}
+              {t("about.supervisor.name", { returnObjects: true }).map(
+                (name: string) => (
+                  <span
+                    key={name}
+                    className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600"
+                  >
+                    {name}
+                  </span>
+                )
+              )}
             </span>
-            <span className=" border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
-              Description:{" "}
-              <span className=" border-l-2 border-orange-600 px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                This app is a dynamic, user-friendly web application designed to
-                showcase various road signs with descriptions and images. Users
-                can explore different types of road signs, learning about their
-                meanings and uses.
-              </span>
-              <span className=" border-l-2 border-orange-600 px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                The app uses React for the frontend logic and TypeScript for
-                type safety, ensuring robust and maintainable code. Styling is
-                handled with Tailwind CSS, providing a clean and modern UI with
-                responsive design
-              </span>
+            <span className="border-l-2 border-orange-600 pl-2">
+              {t("about.supervisor.titleOfDegree")}:{" "}
+              {t("about.supervisor.degrees", { returnObjects: true }).map(
+                (degree: string) => (
+                  <span
+                    key={degree}
+                    className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600"
+                  >
+                    {degree}
+                  </span>
+                )
+              )}
             </span>
-            <span className=" border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1 ">
-              Attetion:{" "}
-              <span className=" px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
-                Not all symbols have been added to the database yet!.
+            <span className="border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
+              {t("about.supervisor.profession")}:{" "}
+              {t("about.supervisor.professionDetails", {
+                returnObjects: true,
+              }).map((word: string) => (
+                <span
+                  key={word}
+                  className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600"
+                >
+                  {word}
+                </span>
+              ))}
+            </span>
+          </div>
+        </div>
+
+        {/* App Info Section */}
+        <div className="px-2 md:w-[750px] xl:w-[1160px] md:mx-auto">
+          <h1 className="text-3xl border-l-2 border-orange-600 pl-2">
+            {t("about.app.title")}
+          </h1>
+          <div className="flex flex-col gap-y-4 my-4 pl-2">
+            <span className="border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
+              {t("about.app.language")}:{" "}
+              {t("about.app.languages", { returnObjects: true }).map(
+                (lang: string) => (
+                  <span
+                    key={lang}
+                    className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600"
+                  >
+                    {lang}
+                  </span>
+                )
+              )}
+            </span>
+            <span className="border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
+              {t("about.app.framework")}:{" "}
+              {t("about.app.frameworks", { returnObjects: true }).map(
+                (framework: string) => (
+                  <span
+                    key={framework}
+                    className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600"
+                  >
+                    {framework}
+                  </span>
+                )
+              )}
+            </span>
+            <span className="border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
+              {t("about.app.styles")}:{" "}
+              {t("about.app.styleTechnologies", { returnObjects: true }).map(
+                (style: string) => (
+                  <span
+                    key={style}
+                    className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600"
+                  >
+                    {style}
+                  </span>
+                )
+              )}
+            </span>
+            <span className="border-l-2 border-orange-600 pl-2 flex flex-col gap-y-1">
+              {t("about.app.description")}:{" "}
+              {t("about.app.descriptionText", { returnObjects: true }).map(
+                (paragraph: string, index: number) => (
+                  <span
+                    key={index}
+                    className="border-l-2 border-orange-600 px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600"
+                  >
+                    {paragraph}
+                  </span>
+                )
+              )}
+            </span>
+            <span className="border-l-2 border-orange-600 pl-2 flex flex-wrap gap-y-1">
+              {t("about.app.attention")}:{" "}
+              <span className="px-1 ml-1 rounded-[2px] bg-orange-100 text-orange-600">
+                {t("about.app.attentionText")}
               </span>
             </span>
           </div>
