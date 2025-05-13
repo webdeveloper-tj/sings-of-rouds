@@ -5,6 +5,7 @@ import NotFound from "./pages/NotFound.page";
 import Navbar from "./components/Navbar.component";
 import Footer from "./components/Footer.component";
 import Sings from "./pages/Sings.page";
+import QuizPage from "./pages/QuizPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} path="/" />
           <Route element={<About />} path="/about" />
           <Route element={<Sings />} path="/sings" />
+          <Route element={<QuizPage />} path="/quiz" />
           <Route element={<NotFound />} path="*" />
         </Routes>
         <Footer />
