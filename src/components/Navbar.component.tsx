@@ -1,8 +1,14 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t, i18n } = useTranslation();
+
+  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    i18n.changeLanguage(e.target.value);
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -54,7 +60,7 @@ const Navbar = () => {
                 }
                 aria-current="page"
               >
-                Асосӣ
+                {t("navbar.home")}
               </NavLink>
             </li>
             <li>
@@ -66,7 +72,19 @@ const Navbar = () => {
                     : "block py-2 px-3 text-slate-700 rounded hover:bg-orange-200 hover:text-orange-700  md:border-0 md:hover:text-orange-700 md:hover:bg-orange-100 md:px-2 transition-colors"
                 }
               >
-                Sings
+                {t("navbar.signs")}
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to={"/quiz"}
+                className={({ isActive }) =>
+                  isActive
+                    ? " block py-2 px-3 text-slate-700 rounded bg-orange-200 hover:text-orange-700  md:border-0 md:hover:text-orange-700 md:hover:bg-orange-100 md:px-2 transition-colors"
+                    : "block py-2 px-3 text-slate-700 rounded hover:bg-orange-200 hover:text-orange-700  md:border-0 md:hover:text-orange-700 md:hover:bg-orange-100 md:px-2 transition-colors"
+                }
+              >
+                {t("navbar.quiz")}
               </NavLink>
             </li>
             <li>
@@ -78,8 +96,18 @@ const Navbar = () => {
                     : "block py-2 px-3 text-slate-700 rounded hover:bg-orange-200 hover:text-orange-700  md:border-0 md:hover:text-orange-700 md:hover:bg-orange-100 md:px-2 transition-colors"
                 }
               >
-                About
+                {t("navbar.about")}
               </NavLink>
+            </li>
+            <li>
+              <select
+                onChange={handleLanguageChange}
+                value={i18n.language}
+                className="appearance-none w-full px-3 py-2 pr-10 rounded-xl border-2 border-orange-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none transition-all bg-white text-gray-700 shadow-sm"
+              >
+                <option value="tj">🇹🇯 TJ</option>
+                <option value="en">🇺🇸 ENG</option>
+              </select>
             </li>
           </ul>
         </div>
